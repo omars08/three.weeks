@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
 
-using namespace std
-int maxsize = 10;
+using namespace std;
+const int maxsize = 10;
 
 int main()
 {
@@ -11,11 +11,11 @@ int main()
     char answer;
     ifstream fif;
     fif.open("Readme.txt", ios::app);
-    while(!fif.eof())
+    while(!fif.eof()) // while output end of line.
     {
 
     answer = 'x'; //nullifying the 'y' char for each loop.
-    getline(fif,line);
+    getline(fif,line); // reads the end of a line.
     cout << line << endl;
     track++;
         if(track == maxsize)
