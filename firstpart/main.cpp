@@ -17,7 +17,7 @@ int main()
     answer = 'x'; //nullifying the 'y' char for each loop.
     getline(fif,line); // reads the end of a line.
     cout << line << endl;
-    track++;
+    track++; // important to read the amount of lines
         if(track == maxsize)
         {
             while(answer != 'y')
