@@ -7,7 +7,7 @@ const int maxsize = 10;
 int main()
 {
     string line;
-    int track = 0;
+    int counter = 0;
     char answer;
     ifstream fif;
     fif.open("Readme.txt", ios::app);
@@ -17,8 +17,8 @@ int main()
     answer = 'x'; //nullifying the 'y' char for each loop.
     getline(fif,line); // reads the end of a line.
     cout << line << endl;
-    track++; // important to read the amount of lines
-        if(track == maxsize)
+    counter++; // important to read the amount of lines
+        if(counter == maxsize)
         {
             while(answer != 'y')
             {
@@ -30,7 +30,7 @@ int main()
             }
 
             }
-            track = 0;
+            counter = 0;
         }
         if(answer == 'n')
         {
