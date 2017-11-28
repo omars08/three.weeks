@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511871398 source:c:\users\sindri dan\desktop\3vikna\three.weeks\verk1.2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

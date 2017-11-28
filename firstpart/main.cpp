@@ -9,36 +9,31 @@ int main()
     string line;
     int counter = 0;
     char answer;
-    ifstream fif;
-    fif.open("Readme.txt", ios::app);
-    while(!fif.eof()) // while output end of line.
+    ifstream fin;
+    fin.open("Readme.txt", ios::app); // 'append'- all output will be added (appended) to the end of the file.
+    while(!fin.eof()) // while output end of line.
     {
 
-    answer = 'x'; //nullifying the 'y' char for each loop.
-    getline(fif,line); // reads the end of a line.
-    cout << line << endl;
-    counter++; // important to read the amount of lines
+        answer = '\0'; //nullifying the 'y' char for each loop.
+        getline(fin, line); // reads the end of a line.
+        cout << line << endl;
+        counter++; // important to read the amount of lines
         if(counter == maxsize)
         {
-            while(answer != 'y')
+            while(!((answer == 'y') || (answer == 'Y')))
             {
-            cout << "Do you want to continue?(y/n) ";
-            cin >> answer;
-            if(answer == 'n')
-            {
-                break;
-            }
-
+                cout << "Do you want to continue?(y/n) ";
+                cin >> answer;
             }
             counter = 0;
         }
-        if(answer == 'n')
+        if(answer == 'n' || answer == 'N')
         {
             break;
         }
 
     }
-    fif.close();
+    fin.close();
 
     return 0;
 }
