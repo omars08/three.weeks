@@ -1,35 +1,35 @@
-#include "superhero.h"
+#include "superheroii.h"
 #include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
 
-    Superhero::Superhero(){
+    SuperheroII::Superhero(){
         string name = "unknown";
         int age = 0;
         char superpower = ' ';
     }
 
-    Superhero::Superhero(string name, int age, char superpower){
+    SuperheroII::Superhero(string name, int age, char superpower){
         _name = name;
         _age = age;
         _superpower = superpower;
     }
 
-    string Superhero::set_name()const{
+    string SuperheroII::set_name()const{
         return _name;
     }
 
-    int Superhero::set_age()const{
+    int SuperheroII::set_age()const{
         return _age;
     }
 
-    string Superhero::set_superpower()const{
+    string SuperheroII::set_superpower()const{
 
         return _superpowerstring;
 
     }
-    ostream& operator << (ostream& out, Superhero& superhero){
+    ostream& operator << (ostream& out, SuperheroII& superhero){
         out << "Name of superhero: " << superhero._name << endl;
         out << "Age of superhero: " << superhero._age << endl;
         out << "Power of superhero: ";
@@ -52,12 +52,12 @@ using namespace std;
         return out;
     }
 
-    istream& operator >> (istream& in, Superhero& superhero){
+    istream& operator >> (istream& in, SuperheroII& superhero){
         in >> superhero._name >> superhero._age >> superhero._superpower;
         return in;
     }
 
-    void Superhero::fileinput(){
+    void SuperheroII::fileinput(){
 
     fout.open("SuperheroData.txt", ios::app);
 
@@ -80,7 +80,7 @@ using namespace std;
     fout.close();
     }
 
-    void Superhero::print_hero_from_file(){
+    void SuperheroII::print_hero_from_file(){
         fin.open("SuperheroData.txt");
             while(!fin.eof()){
                 getline(fin, line);

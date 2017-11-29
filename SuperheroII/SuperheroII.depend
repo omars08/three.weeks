@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1511919672 source:c:\users\sindri dan\desktop\3vikna\three.weeks\superheroii\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"superheroii.h"
+
+1511920159 c:\users\sindri dan\desktop\3vikna\three.weeks\superheroii\superheroii.h
+	<iostream>
+	<fstream>
+	<string>
+

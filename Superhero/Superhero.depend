@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1511892430 source:c:\users\sindri dan\desktop\3vikna\three.weeks\superhero\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"superhero.h"
+
+1511891615 c:\users\sindri dan\desktop\3vikna\three.weeks\superhero\superhero.h
+	<iostream>
+	<fstream>
+	<string>
+
+1511910037 source:c:\users\sindri dan\desktop\3vikna\three.weeks\superhero\superhero.cpp
+	"superhero.h"
+	<iostream>
+	<string>
+	<fstream>
+
