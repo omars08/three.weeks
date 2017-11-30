@@ -1,6 +1,9 @@
 #include "MainUI.h"
 #include<iostream>
-#include<PizzaUI.h>
+#include <PizzaUI.h>
+#include "Toppings.h"
+#include "Pizza.h"
+#include "PizzaPlace.h"
 
 using namespace std;
 
@@ -28,7 +31,17 @@ void MainUI::openingUI()
 
         }
         if(selection == 't'){
-
+            selection = '\0';
+            PizzaPlace pizzaplace;
+            do{
+                Toppings topping;
+                cin >> topping;
+                pizzaplace.addToppingToList(topping);
+                cout << "Do you want to add another topping to the list? ";
+                cin >> selection;
+            }
+            while(selection == 'j');
+            cout << pizzaplace;
         }
     }
 }

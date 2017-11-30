@@ -32,13 +32,18 @@ void PizzaUI::makePizzaUI()
             cin >> selection;
 
             if(selection == 'j'){
+                while(selection == 'j'){
                 Toppings toppings;
                 cin >> toppings;
                 thepizza.add_topping(toppings);
-                cout << thepizza;
+                cout << "Want to add topping: j or n? ";
+                cin >> selection;
+                }
             }
             if (selection == 'n'){
                 cout << "No topping added ";
+                cout << "This is your pizza: " << endl;
+                cout << thepizza;
 
             }
 
