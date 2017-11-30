@@ -1,6 +1,8 @@
 #ifndef SUPERHERO_H
 #define SUPERHERO_H
 
+#include <string>
+
 
 class Superhero
 {
