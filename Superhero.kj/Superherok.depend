@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1511885699 source:c:\users\kjart\desktop\pro 1\superhero\main.cpp
+	<iostream>
+	<string>
+	<Heroes.h>
+
+1511886290 c:\users\kjart\desktop\pro 1\superhero\include\heroes.h
+	<iostream>
+	<string>
+	<fstream>
+
+1511886583 source:c:\users\kjart\desktop\pro 1\superhero\src\heroes.cpp
+	"Heroes.h"
+	<iostream>
+	<string>
+	<fstream>
+

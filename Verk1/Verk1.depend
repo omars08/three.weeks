@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1512140756 source:c:\users\kjart\desktop\pro 1\verk1\main.cpp
+	<iostream>
+	<fstream>
+

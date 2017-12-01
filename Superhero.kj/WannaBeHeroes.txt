@@ -1,4 +1,26 @@
 Kjartan (20) flying
 Batman (91) Hacker
+<<<<<<< HEAD
+Kjartan (19) giant
+Sindri (83) Weakling
+Kjartan (20) None
+Kjartan (20) Giant
+a (20) Giant
+a (19) None
+API (4) Flying
+A (21) Hacker
+Kj (20) Flying
+Kj (20) Hacker
+k (1) Flying
+Kjartan (20) Giant
+Kjartan (20) None
+kjartan (20) Flying
+Kjartan (31) Giant
+kjartan (20) Flying
+=======
 nonni (33) flying
+<<<<<<< HEAD
 sindri (33) Hacker
+=======
+>>>>>>> a5869cdd549aae26a35e008820655f9d5468d173
+>>>>>>> 9aaa622462492e3d7301ce2e3a51bb1d830eeb8f
