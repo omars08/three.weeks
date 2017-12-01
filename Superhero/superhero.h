@@ -1,9 +1,15 @@
 #ifndef SUPERHERO_H
 #define SUPERHERO_H
+<<<<<<< HEAD
 #include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;
+=======
+
+#include <string>
+
+>>>>>>> 692971027ab081b1591470eabb5c7fca8fa2f850
 
 class Superhero
 {

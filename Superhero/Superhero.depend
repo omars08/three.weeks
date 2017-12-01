@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1511892430 source:c:\users\sindri dan\desktop\3vikna\three.weeks\superhero\main.cpp
 	<iostream>
 	<fstream>
@@ -12,6 +13,20 @@
 
 1511910037 source:c:\users\sindri dan\desktop\3vikna\three.weeks\superhero\superhero.cpp
 	"superhero.h"
+=======
+1511885699 source:c:\users\kjart\desktop\pro 1\superhero\main.cpp
+	<iostream>
+	<string>
+	<Heroes.h>
+
+1511886290 c:\users\kjart\desktop\pro 1\superhero\include\heroes.h
+	<iostream>
+	<string>
+	<fstream>
+
+1511886583 source:c:\users\kjart\desktop\pro 1\superhero\src\heroes.cpp
+	"Heroes.h"
+>>>>>>> 692971027ab081b1591470eabb5c7fca8fa2f850
 	<iostream>
 	<string>
 	<fstream>
