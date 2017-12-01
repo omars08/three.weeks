@@ -75,13 +75,18 @@ void MainUI::openingUI()
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;
-            cout << "Welcome to staff login. To access staff menu, please enter the correct user name." << endl;
-            string login_name;
+            //StaffLoginUI(login_name);
+            string login_name = stafflogin.get_login_name();
+            cout << "************************************************************************************" << endl;
+            cout << "* Welcome to staff login. To access staff menu, please enter the correct user name *" << endl;
+            cout << "************************************************************************************" << endl;
+
             cout << "USER: ";
             cin >> login_name;
 
             if(stafflogin.check_login_name(login_name) == true){
                 //ENTER A USER INTERFACE CLASS TO MANIPULATE ORDERS AND PRICINGS
+                cout << stafflogin;
 
             }
             else{

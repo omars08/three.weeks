@@ -25,6 +25,9 @@ bool StaffLoginUI::check_login_name(string login_name){
     cout << "Welcome to staff UI." << endl;
     return true;
 }
+string StaffLoginUI::get_login_name(){
+    return login_name;
+}
 istream& operator >> (istream& in, StaffLoginUI& stafflogin){
     cout << "Login name: " << endl;
     in >> stafflogin.login_name;
