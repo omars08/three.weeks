@@ -18,9 +18,11 @@ StaffLoginUI::~StaffLoginUI()
 }
 
 bool StaffLoginUI::check_login_name(string login_name){
-    if(login_name != "admin"){
+    if(login_name != "admin") {
         return false;
     }
+    cout << "Correct input." << endl;
+    cout << "Welcome to staff UI." << endl;
     return true;
 }
 istream& operator >> (istream& in, StaffLoginUI& stafflogin){

@@ -47,6 +47,7 @@ void MainUI::openingUI()
 
         cout << "O: Create new order" << endl;
         cout << "T: Make new topping" << endl;
+        cout << "S: Staff login" << endl;
         cout << "Q: quit" << endl;
 
         cin >> selection;
@@ -74,11 +75,18 @@ void MainUI::openingUI()
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;
-            cin >> stafflogin;
-            while(stafflogin.check_login_name(stafflogin) == true){
-                cout << stafflogin << endl;
-                cout << "Good." << endl; //test
+            cout << "Welcome to staff login. To access staff menu, please enter the correct user name." << endl;
+            string login_name;
+            cout << "USER: ";
+            cin >> login_name;
 
+            if(stafflogin.check_login_name(login_name) == true){
+                //ENTER A USER INTERFACE CLASS TO MANIPULATE ORDERS AND PRICINGS
+
+            }
+            else{
+                cout << "Intruder! Quitting program..";
+                break;
             }
         }
     }

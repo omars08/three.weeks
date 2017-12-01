@@ -17,10 +17,7 @@ Kjartan (20) None
 kjartan (20) Flying
 Kjartan (31) Giant
 kjartan (20) Flying
-=======
 nonni (33) flying
-<<<<<<< HEAD
 sindri (33) Hacker
-=======
->>>>>>> a5869cdd549aae26a35e008820655f9d5468d173
->>>>>>> 9aaa622462492e3d7301ce2e3a51bb1d830eeb8f
+sindri (22) Flying
+kalli (21) Hacker
