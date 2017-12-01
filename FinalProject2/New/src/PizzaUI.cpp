@@ -3,6 +3,7 @@
 #include "Pizza.h"
 #include "Toppings.h"
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -17,34 +18,42 @@ void PizzaUI::makePizzaUI()
     string name = "";
 
     while(selection != 'q'){
-
-        cout << "p: make pizza" << endl;
-        cout << "o: Review order " << endl;
-        cout << "q: quit" << endl;
+    int selectCounter = 0;
+        cout << "P: make pizza" << endl;
+        cout << "R: Review order " << endl;
+        cout << "Q: quit" << endl;
 
         cin >> selection;
 
         if(selection == 'p'){
             Pizza thepizza;
+            cout << "Default pizza is Margherita, only cheese" << endl;
             cin >> thepizza;
-
-            cout << "Want to add topping: j or n? ";
+            Toppings toppings;
+            cout << "Want to add topping: (y/n)? ";
             cin >> selection;
 
-            if(selection == 'j'){
-                while(selection == 'j'){
+            if(selection == 'y'){
+                while(selection == 'y'){
                 Toppings toppings;
                 cin >> toppings;
                 thepizza.add_topping(toppings);
-                cout << "Want to add topping: j or n? ";
+                cout << "Add another topping: (y/n)? ";
                 cin >> selection;
+                selectCounter++;
                 }
             }
-            if (selection == 'n'){
+            else if (selection == 'n'){
                 cout << "No topping added ";
                 cout << "This is your pizza: " << endl;
-                cout << thepizza;
-
+                if(selectCounter == 0){
+                    string margaName = "Margherita";
+                    thepizza.set_name(margaName);
+                }
+                else{
+                 cout << thepizza; //current order
+                }
+            cout << thepizza;
             }
 
         }

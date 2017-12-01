@@ -1,17 +1,11 @@
-#ifndef SUPERHERO_H
-#define SUPERHERO_H
-<<<<<<< HEAD
+#ifndef SUPERHEROII_H
+#define SUPERHEROII_H
 #include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;
-=======
 
-#include <string>
-
->>>>>>> 692971027ab081b1591470eabb5c7fca8fa2f850
-
-class Superhero
+class SuperheroII
 {
     public:
         Superhero(); //færibreytulaus smiður, default.
@@ -19,8 +13,8 @@ class Superhero
         string set_name()const;
         int set_age()const;
         string set_superpower()const;
-        friend ostream& operator << (ostream& out, Superhero& superhero);
-        friend istream& operator >> (istream& in, Superhero& superhero);
+        friend ostream& operator << (ostream& out, SuperheroII& superhero);
+        friend istream& operator >> (istream& in, SuperheroII& superhero);
         void fileinput();
         void print_hero_from_file();
 

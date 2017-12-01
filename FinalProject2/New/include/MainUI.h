@@ -6,6 +6,8 @@ class MainUI
 {
     public:
         MainUI();
+        void pizzaOrderUI();
+        void introUI();
         void openingUI();
 
     private:

@@ -31,9 +31,15 @@ istream& operator >> (istream& in, Pizza& pizza)
     in >> pizza.name;
     cout << "What size is the pizza: (9, 12, 16) " << endl;
     in >> pizza.size;
-    cout << "Choose topping: ";
-
-
+        if(pizza.size <= 9){
+            pizza.size = 9;
+        }
+        else if(pizza.size <= 12){
+            pizza.size = 12;
+        }
+        else if(pizza.size <= 16 || pizza.size >= 16){
+            pizza.size = 16;
+        }
     return in;
 }
 
@@ -52,3 +58,7 @@ string Pizza::get_name()
     return name;
 }
 
+string Pizza::set_name(string name){
+    this->name = name;
+    return name;
+}

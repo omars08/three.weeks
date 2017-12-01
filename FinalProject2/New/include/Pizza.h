@@ -16,7 +16,7 @@ class Pizza
         friend ostream& operator << (ostream& out, const Pizza& pizza);
         string get_name();
         void add_topping (Toppings topping);
-
+        string set_name(string name);
     private:
         string name;
         int size;
