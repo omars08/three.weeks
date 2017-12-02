@@ -21,8 +21,14 @@ bool StaffLoginUI::check_login_name(string login_name){
     if(login_name != "admin") {
         return false;
     }
-    cout << "Correct input." << endl;
-    cout << "Welcome to staff UI." << endl;
+    cout << "--> \""<< login_name << "\" is the correct login name." << endl;
+    cout << string(2, '\n'); //empty space
+    cout << "   *-----------------------------------*" << endl;
+    cout << "   |                                   |" << endl;
+    cout << "   |       Welcome to staff menu       |" << endl;
+    cout << "   |                                   |" << endl;
+    cout << "   *-----------------------------------*" << endl;
+    cout << endl;
     return true;
 }
 string StaffLoginUI::get_login_name(){

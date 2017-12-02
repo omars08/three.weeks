@@ -97,7 +97,7 @@
 
 1512133839 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\mainui.h
 
-1512171211 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
+1512175982 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
@@ -145,7 +145,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1512171067 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
+1512175997 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
 	<string.h>
@@ -153,4 +153,9 @@
 
 1512169592 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
+
+1512175553 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
+	"StaffUI.h"
+
+1512175553 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
 

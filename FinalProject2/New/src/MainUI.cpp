@@ -26,9 +26,9 @@ void MainUI::introUI(){
    cout << " --------------| W E L C O M E  T O  C + +  P I Z Z A |--------------" << endl;
    cout << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
-   cout << " |        Are you hungry?        |  |                               |" << endl;
+   cout << " |        Are you hungry?        |  |          Administrator        |" << endl;
    cout << " |  How about some nice pizza?   |  |   Press 'S' for staff login   |" << endl;
-   cout << " |      Press 'O' to order!      |  |                               |" << endl;
+   cout << " |      Press 'O' to order!      |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << endl;
    cout << " For customer service and complaints, type \"ABORT\" and press enter." << endl;
@@ -44,12 +44,10 @@ void MainUI::openingUI()
     char selection = '\0';
 
     while(selection != 'q'){
-
-        cout << "O: Create new order" << endl;
-        cout << "T: Make new topping" << endl;
-        cout << "S: Staff login" << endl;
-        cout << "Q: quit" << endl;
-
+        //cout << "O: Create new order" << endl; birtist í ascii myndinni
+        //cout << "T: Make new topping" << endl; kannski eitthvað sem færist í staff ui
+        //cout << "S: Staff login" << endl; birtist í ascii myndinni
+        cout << "User input: ";
         cin >> selection;
 
         if(selection == 'o' || selection == 'p' || selection == 'O' || selection == 'P'){
@@ -77,21 +75,28 @@ void MainUI::openingUI()
             StaffLoginUI stafflogin;
             //StaffLoginUI(login_name);
             string login_name = stafflogin.get_login_name();
-            cout << "************************************************************************************" << endl;
-            cout << "* Welcome to staff login. To access staff menu, please enter the correct user name *" << endl;
-            cout << "************************************************************************************" << endl;
+            cout << "******************************************************************************************" << endl;
+            cout << "* Welcome to staff login. To access staff menu, please enter the correct user name below *" << endl;
+            cout << "******************************************************************************************" << endl;
+            cout << string(3, '\n'); //empty space
 
             cout << "USER: ";
             cin >> login_name;
 
             if(stafflogin.check_login_name(login_name) == true){
                 //ENTER A USER INTERFACE CLASS TO MANIPULATE ORDERS AND PRICINGS
-                cout << stafflogin;
-
+                //cout << string(50, '\n');
+                char loginInput;
+                cout << "View staff options (y/n)? ";
+                cin >> loginInput;
+                    if(loginInput == 'y' || loginInput == 'Y'){
+                        //birta StaffUI hér.
+                    }
             }
             else{
-                cout << "Intruder! Quitting program..";
-                break;
+                cout << "Illegal user name: " << "\"" << login_name << "\"" << ". Entering Main UI.";
+                cout << endl;
+                introUI();
             }
         }
     }
