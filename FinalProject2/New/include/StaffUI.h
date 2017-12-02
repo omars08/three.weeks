@@ -8,8 +8,6 @@ class StaffUI
         StaffUI();
         virtual ~StaffUI();
 
-    protected:
-
     private:
 };
 

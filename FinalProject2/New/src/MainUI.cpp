@@ -92,6 +92,8 @@ void MainUI::openingUI()
                     if(loginInput == 'y' || loginInput == 'Y'){
                         //birta StaffUI hér.
                     }
+                    else{
+                    }
             }
             else{
                 cout << "Illegal user name: " << "\"" << login_name << "\"" << ". Entering Main UI.";
