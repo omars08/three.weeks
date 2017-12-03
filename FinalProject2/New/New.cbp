@@ -39,6 +39,7 @@
 		<Unit filename="include/PizzaPlace.h" />
 		<Unit filename="include/PizzaUI.h" />
 		<Unit filename="include/StaffLoginUI.h" />
+		<Unit filename="include/StaffUI.h" />
 		<Unit filename="include/Toppings.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/MainUI.cpp" />
@@ -46,6 +47,7 @@
 		<Unit filename="src/PizzaPlace.cpp" />
 		<Unit filename="src/PizzaUI.cpp" />
 		<Unit filename="src/StaffLoginUI.cpp" />
+		<Unit filename="src/StaffUI.cpp" />
 		<Unit filename="src/Toppings.cpp" />
 		<Extensions>
 			<code_completion />
