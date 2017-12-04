@@ -1,4 +1,4 @@
-The name you chose: KillerPizza
+ The name you chosse: KillerPizza
 The size you chose: 9
 The toppings you chose: 
 Name of topping: Sveppir
@@ -10,6 +10,9 @@ Toppings:
 Name of topping: pepp
 Price of topping: 0
 
-Name of topping: svepp
-Price of topping: 420
+Pizza: Pizza1
+Size: 9
+Toppings: 
+Name of topping: Pep
+Price of topping: 100
 

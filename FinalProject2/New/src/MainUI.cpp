@@ -5,6 +5,7 @@
 #include "Pizza.h"
 #include "PizzaPlace.h"
 #include "StaffLoginUI.h"
+#include "StaffUI.h"
 
 using namespace std;
 
@@ -52,6 +53,7 @@ void MainUI::openingUI()
         cout << "User input: ";
         cin >> selection;
 
+
         if(selection == 'o' || selection == 'p' || selection == 'O' || selection == 'P'){
             ///make pizza
             PizzaUI pizza;
@@ -91,7 +93,7 @@ void MainUI::openingUI()
                 char loginInput;
                 cout << "View staff options (y/n)? ";
                 cin >> loginInput;
-                    StaffUI staffui
+                    StaffUI staffui();
                     while(loginInput == 'y' || loginInput == 'Y'){
 
                     }
