@@ -60,6 +60,10 @@ void PizzaUI::makePizzaUI()
             writelist.storePizza(thepizza);
 
         }
+        else if(selection == 'r' || selection == 'R'){
+                WriteList writelist;
+                writelist.reviewPizza();
+            }
         if(selection == 'o'){
 
         }

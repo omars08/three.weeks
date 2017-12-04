@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include "PizzaPlace.h"
+#include "PizzaUI.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ class WriteList
         WriteList();
         void storePizza (Pizza pizza);
         void storeToppingList (Toppings toppings);
+        void reviewPizza ();
 
     private:
 };

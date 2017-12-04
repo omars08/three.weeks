@@ -41,9 +41,11 @@ cout << endl; //ascii art
 }
 void MainUI::openingUI()
 {
+    MainUI mainui;
     char selection = '\0';
 
     while(selection != 'q'){
+        mainui.introUI(); /// Prentar ASCII skjáinn.
         //cout << "O: Create new order" << endl; birtist í ascii myndinni
         //cout << "T: Make new topping" << endl; kannski eitthvağ sem færist í staff ui
         //cout << "S: Staff login" << endl; birtist í ascii myndinni

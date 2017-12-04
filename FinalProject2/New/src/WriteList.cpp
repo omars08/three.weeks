@@ -24,3 +24,16 @@ void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skr
 
     fout.close();
 }
+void WriteList::reviewPizza ()
+{
+    string line;
+    ifstream fin;
+    fin.open("PizzaOrder.txt");
+        do{
+                getline(fin, line);
+        cout << line << endl;
+        }while(!fin.eof());
+        fin.close();
+}
+
+

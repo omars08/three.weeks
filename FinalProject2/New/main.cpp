@@ -7,7 +7,7 @@ int main()
 {
 
     MainUI mainui;
-    mainui.introUI();
+    //mainui.introUI();
     mainui.openingUI();
 
     return 0;
