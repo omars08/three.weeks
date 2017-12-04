@@ -100,7 +100,7 @@
 
 1512133839 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\mainui.h
 
-1512404480 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
+1512407951 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
@@ -128,7 +128,7 @@
 	<string>
 	<iostream>
 
-1512406562 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
+1512407244 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
 	"Pizza.h"
 	<string.h>
 	<string>
@@ -138,7 +138,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512396430 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512407964 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"
@@ -207,7 +207,8 @@
 1512384661 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\writelist.cpp
 	"WriteList.h"
 
-<<<<<<< HEAD
+1512403661 D
+
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\main.cpp
 	<iostream>
 	"MainUI.h"
@@ -267,7 +268,7 @@
 	"WriteList.h"
 
 1512393536 c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\include\writelist.h
-=======
+
 1512404281 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\stafftoppingcontrol.cpp
 	"StaffToppingControl.h"
 	<iostream>
@@ -276,7 +277,8 @@
 	"WriteList.h"
 
 1512403661 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\stafftoppingcontrol.h
->>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
+
+1512400512 fcce3799eacb3e08e3ab80c5912a0bf46fc92
 	"Toppings.h"
 	"Pizza.h"
 	<iostream>
@@ -284,7 +286,6 @@
 	"PizzaPlace.h"
 	"PizzaUI.h"
 
-<<<<<<< HEAD
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
@@ -299,10 +300,11 @@
 
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\src\writelist.cpp
 	"WriteList.h"
-=======
+
+1512393536 .h"
+
 1512400513 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzafrommenu.cpp
 	"PizzaFromMenu.h"
 
 1512400512 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzafrommenu.h
->>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
 

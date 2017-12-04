@@ -6,10 +6,6 @@
 #include "PizzaPlace.h"
 #include "StaffLoginUI.h"
 #include "StaffUI.h"
-<<<<<<< HEAD
-
-=======
->>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
 using namespace std;
 
 MainUI::MainUI()
@@ -91,11 +87,10 @@ void MainUI::openingUI()
                 char loginInput;
                 cout << "View staff options (y/n)? ";
                 cin >> loginInput;
-<<<<<<< HEAD
+
                     StaffUI staffui();
                     while(loginInput == 'y' || loginInput == 'Y'){
 
-=======
                     StaffUI staffui;
                     while(true){
                         if(loginInput == 'y' || loginInput == 'Y'){
@@ -105,9 +100,10 @@ void MainUI::openingUI()
                             if(input != 'q' || input != 'Q'){
                             staffui.readOrders(input); ///reads the int input and enter the corresponding menu
                         }
->>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
+
                     }
                 }
+            }
             }
             else{
                 cout << "Illegal user name: " << "\"" << login_name << "\"" << ". Entering Main UI.";
