@@ -11,7 +11,7 @@ class Pizza
 {
     public:
         Pizza();
-        Pizza(string name, int size, vector<Toppings> toppings);
+        Pizza(string name, int size, int phone, vector<Toppings> toppings);
         friend istream& operator >> (istream& in, Pizza& pizza);
         friend ostream& operator << (ostream& out, const Pizza& pizza);
         string get_name();
@@ -19,6 +19,7 @@ class Pizza
         string set_name(string name);
     private:
         string name;
+        int phone;
         int size;
         vector<Toppings> toppings;
 };

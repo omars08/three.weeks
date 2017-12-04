@@ -3,3 +3,19 @@
 
 2 Salsa:200
 
+3 HotSauce:150
+
+4 ExtraSauce:150
+
+5 SecretSauce:300
+
+6 BlackPepper:0
+
+7 Salt:0
+
+8 Oregano:0
+
+9 CrustOil:100
+
+10 SpicyOil:100
+

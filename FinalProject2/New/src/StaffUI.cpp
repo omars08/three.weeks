@@ -41,6 +41,7 @@ void StaffUI::readOrders(int input)
         cout << "   User input: ";
         cin >> char_input;
             if(char_input == 'r'){
+                cout << endl;
                 cout << "Which topping category to print?" << endl;
                 cout << "1. Sauces and spices." << endl;
                 cout << "2. Vegetables and fruit." << endl;
@@ -64,6 +65,7 @@ void StaffUI::readOrders(int input)
 
                 }
             else if(char_input == 'a'){
+        cout << endl;
         cout << "Which topping category to alter?" << endl;
         cout << "1. Sauces and spices (0 kr.)." << endl;
         cout << "2. Vegetables and fruit (200 kr.)." << endl;

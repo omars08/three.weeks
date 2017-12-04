@@ -1,2 +1,18 @@
 
+1 Paprika:150
 
+2 Jalapeno:150
+
+3 Onions:100
+
+4 Bananas:150
+
+5 Pineapple:200
+
+6 Olives:150
+
+7 Tomatoes:200
+
+8 Mushrooms:100
+
+9 Chilli:150
