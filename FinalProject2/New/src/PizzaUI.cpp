@@ -28,10 +28,10 @@ void PizzaUI::makePizzaUI()
 
         if(selection == 'p'){
             Pizza thepizza;
-            cout << "Default pizza is Margherita, only cheese" << endl;
+            cout << "*Default pizza is Margherita, only cheese." << endl;
             cin >> thepizza;
             Toppings toppings;
-            cout << "Want to add topping: (y/n)? ";
+            cout << "Want to add a topping: (y/n)? ";
             cin >> selection;
 
             if(selection == 'y'){

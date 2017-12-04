@@ -27,9 +27,9 @@ void Pizza::add_topping (Toppings topping)
 
 istream& operator >> (istream& in, Pizza& pizza)
 {
-    cout << "Name the pizza: " << endl;
+    cout << "Name the pizza: ";
     in >> pizza.name;
-    cout << "What size is the pizza: (9, 12, 16) " << endl;
+    cout << "What size is the pizza: (9, 12, 16) ";
     in >> pizza.size;
         if(pizza.size <= 9){
             pizza.size = 9;

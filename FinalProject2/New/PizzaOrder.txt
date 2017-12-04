@@ -4,3 +4,12 @@ The toppings you chose:
 Name of topping: Sveppir
 Price of topping: 100
 
+Pizza: Svepperoni
+Size: 9
+Toppings: 
+Name of topping: pepp
+Price of topping: 0
+
+Name of topping: svepp
+Price of topping: 420
+

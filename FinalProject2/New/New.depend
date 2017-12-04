@@ -127,7 +127,7 @@
 	<string>
 	<iostream>
 
-1512133129 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
+1512385865 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
 	"Pizza.h"
 	<string.h>
 	<string>
@@ -137,7 +137,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512383485 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512385845 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"
@@ -158,10 +158,10 @@
 1512169592 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
 
-1512175553 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
+1512385359 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
 	"StaffUI.h"
 
-1512385093 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
+1512385348 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
 
 1512169592 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
