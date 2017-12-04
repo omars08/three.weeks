@@ -91,8 +91,9 @@ void MainUI::openingUI()
                 char loginInput;
                 cout << "View staff options (y/n)? ";
                 cin >> loginInput;
+                    StaffUI staffui
                     while(loginInput == 'y' || loginInput == 'Y'){
-                        //birta StaffUI hér.
+
                     }
             }
             else{
