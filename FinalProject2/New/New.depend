@@ -100,7 +100,7 @@
 
 1512133839 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\mainui.h
 
-1512391284 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
+1512393955 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
@@ -108,6 +108,7 @@
 	"Pizza.h"
 	"PizzaPlace.h"
 	"StaffLoginUI.h"
+	"StaffUI.h"
 
 1512063668 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzaui.h
 
@@ -158,10 +159,11 @@
 1512169592 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
 
-1512391284 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
+1512392806 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
 	"StaffUI.h"
+	<iostream>
 
-1512391284 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
+1512394049 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
 
 1512169592 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
