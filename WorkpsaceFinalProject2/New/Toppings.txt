@@ -1,0 +1,6 @@
+Name of topping: skinka
+Price of topping: 80
+Name of topping: paprika
+Price of topping: 90
+Name of topping: olive
+Price of topping: 555

@@ -39,53 +39,56 @@
 1512047938 source:c:\users\ors2\desktop\verklegt_namskeid1\workspace\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1511987236 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\main.cpp
+1512130365 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\main.cpp
 	<iostream>
 	"MainUI.h"
 
-1511987185 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\mainui.h
+1512133839 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\mainui.h
 
-1512054907 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\mainui.cpp
+1512179132 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
 	"Toppings.h"
 	"Pizza.h"
 	"PizzaPlace.h"
+	"StaffLoginUI.h"
 
-1511993500 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizzaui.h
+1512063668 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizzaui.h
 
-1512047938 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizza.cpp
+1512133129 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizza.cpp
 	"Pizza.h"
 	<string.h>
 	<string>
 	<iostream>
 	<vector>
 
-1512039236 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizza.h
+1512131832 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizza.h
 	<string>
 	<iostream>
 	"Toppings.h"
 	<vector>
 
-1512047869 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\toppings.h
+1512063668 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\toppings.h
 	<string>
 	<iostream>
 
-1512047938 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\toppings.cpp
+1512063668 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1512050048 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512340278 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"
 	"Toppings.h"
 	<string>
+	<vector>
+	"WriteList.h"
 
-1512054961 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizzaplace.cpp
+1512063668 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512054223 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizzaplace.h
+1512063668 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\pizzaplace.h
 	"Toppings.h"
 	<vector>
 	<string>
@@ -158,4 +161,28 @@
 	"StaffUI.h"
 
 1512178929 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
+
+1512169592 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\staffloginui.h
+	<string>
+
+1512175997 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\staffloginui.cpp
+	"StaffLoginUI.h"
+	<string>
+	<string.h>
+	<iostream>
+
+1512175553 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\staffui.cpp
+	"StaffUI.h"
+
+1512178929 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\staffui.h
+
+1512339685 source:c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\src\writelist.cpp
+	"WriteList.h"
+
+1512339685 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\writelist.h
+	"Toppings.h"
+	"Pizza.h"
+	<iostream>
+	<fstream>
+	"PizzaPlace.h"
 

@@ -4,6 +4,7 @@
 #include "Toppings.h"
 #include <string>
 #include <vector>
+#include "WriteList.h"
 
 using namespace std;
 
@@ -53,8 +54,10 @@ void PizzaUI::makePizzaUI()
                 else{
                  cout << thepizza; //current order
                 }
-            cout << thepizza;
             }
+            cout << thepizza;
+            WriteList writelist;
+            writelist.storePizza(thepizza);
 
         }
         if(selection == 'o'){
