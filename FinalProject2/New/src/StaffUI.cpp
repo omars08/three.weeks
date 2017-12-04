@@ -9,3 +9,7 @@ StaffUI::~StaffUI()
 {
     //dtor
 }
+void StaffUI::ReadOrders()
+{
+
+}

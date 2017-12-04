@@ -7,6 +7,8 @@ class StaffUI
     public:
         StaffUI();
         virtual ~StaffUI();
+        void ReadOrders();
+
 
     private:
 };

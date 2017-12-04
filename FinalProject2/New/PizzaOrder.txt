@@ -1,0 +1,6 @@
+The name you chose: KillerPizza
+The size you chose: 9
+The toppings you chose: 
+Name of topping: Sveppir
+Price of topping: 100
+
