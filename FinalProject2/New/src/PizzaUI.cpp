@@ -20,10 +20,10 @@ void PizzaUI::makePizzaUI()
 
     while(selection != 'q' || selection != 'Q'){
     int selectCounter = 0;
-        cout << "F: find old orders" << endl;
         cout << "O: Order from menu" << endl;
         cout << "P: Make your pizza" << endl;
         cout << "R: Review order " << endl;
+        cout << "F: Search for order" << endl;
         cout << "Q: quit" << endl;
 
         cin >> selection;
@@ -72,15 +72,15 @@ void PizzaUI::makePizzaUI()
             string line;
             if(answer == "number")
             {
-            cout << "Which order would you like to display? " << endl;
+            cout << "Which order would you like to display? ";
             cin >> number;
 
-            number = number + (number * 5);
+            number = number * 4;
 
 
             fif.open ("PizzaOrder.txt", ios::app);
 
-            for(int i = 0;i < number;i++)
+            for(int i = 0; i < number ;i++)
             {
 
                 getline(fif,line);
@@ -95,7 +95,7 @@ void PizzaUI::makePizzaUI()
             else if(answer == "name")
             {
                 int i = 0;
-                cout << "Name? ";
+                cout << "Name: ";
                 cin >> name;
                 while(!fif.eof())
                 {
@@ -107,7 +107,7 @@ void PizzaUI::makePizzaUI()
                         i++;
                     }
                 }
-                cout << i << " Connects" << endl;
+                cout << i << " matches" << endl;
             }
             fif.close();
         }

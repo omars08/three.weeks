@@ -46,7 +46,7 @@ void MainUI::openingUI()
 
     while(selection != 'q'){
         mainui.introUI(); /// Prentar ASCII skjáinn.
-        cout << "User input: ";
+        cout << "   User input: ";
         cin >> selection;
 
 

@@ -100,7 +100,7 @@
 
 1512133839 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\mainui.h
 
-1512407951 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
+1512429465 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
@@ -138,7 +138,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512407964 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512408876 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"

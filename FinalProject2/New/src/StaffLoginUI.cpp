@@ -25,7 +25,7 @@ bool StaffLoginUI::check_login_name(string login_name){
     cout << string(2, '\n'); //empty space
     cout << "    ----------------------------------- " << endl;
     cout << "   |                                   |" << endl;
-    cout << "   |       Welcome to staff login      |" << endl;
+    cout << "   |       Welcome to staff menu       |" << endl;
     cout << "   |                                   |" << endl;
     cout << "    ----------------------------------- " << endl;
     cout << endl;
