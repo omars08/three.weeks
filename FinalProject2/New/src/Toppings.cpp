@@ -2,28 +2,31 @@
 
 Toppings::Toppings()
 {
+    number = 0;
     name = "";
-    price = 0.0;
+    price = 0;
 }
 
-Toppings::Toppings(string name, double price)
+Toppings::Toppings(int number, string name, int price)
 {
+    this->number = number;
     this->name = name;
     this->price = price;
 }
 
 ostream& operator << (ostream& out, const Toppings& topping)
 {
-    out << "Name of topping: " << topping.name << endl;
-    out << "Price of topping: " << topping.price << endl;
+    out << topping.number << " " << topping.name << ":" << topping.price;
     return out;
 }
 
 istream& operator >> (istream& in, Toppings& toppings)
 {
-    cout << "Please name the topping: ";
+    cout << "Number of topping: ";
+    in >> toppings.number;
+    cout << "Name the topping: ";
     in >> toppings.name;
-    cout << "Please state the price: ";
+    cout << "Price: ";
     in >> toppings.price;
     return in;
 }

@@ -20,8 +20,13 @@ void PizzaUI::makePizzaUI()
 
     while(selection != 'q' || selection != 'Q'){
     int selectCounter = 0;
+<<<<<<< HEAD
         cout << "F: find old orders" << endl;
         cout << "P: make pizza" << endl;
+=======
+        cout << "O: Order from menu" << endl;
+        cout << "P: Make your pizza" << endl;
+>>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
         cout << "R: Review order " << endl;
         cout << "Q: quit" << endl;
 

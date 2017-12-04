@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  The name you chosse: KillerPizza
 The size you chose: 9
 The toppings you chose: 
@@ -16,3 +17,581 @@ Toppings:
 Name of topping: Pep
 Price of topping: 100
 
+=======
+*******
+* Name: Sindri, phone number: 6612180
+* Size: 9
+* Toppings: 
+*******
+1 Pepperoni:100 *******
+* Name: Helgi, phone number: 5812345
+* Size: 9
+* Toppings: 
+*
+1 sveppir:100 *******
+*******
+* Name: Sindri, phone number: 6612190
+* Size: 16
+* Toppings: 
+*1 sveppir:100 *******
+*******
+* Name: r, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+*******
+* Name: Margarita, phone number: 0
+* Size: 16
+* Toppings: 
+*******
+>>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92

@@ -100,7 +100,7 @@
 
 1512133839 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\mainui.h
 
-1512391284 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
+1512404480 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\mainui.cpp
 	"MainUI.h"
 	<iostream>
 	<PizzaUI.h>
@@ -108,14 +108,15 @@
 	"Pizza.h"
 	"PizzaPlace.h"
 	"StaffLoginUI.h"
+	"StaffUI.h"
 
 1512063668 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzaui.h
 
-1512063668 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\toppings.h
+1512402527 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\toppings.h
 	<string>
 	<iostream>
 
-1512131832 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizza.h
+1512406361 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizza.h
 	<string>
 	<iostream>
 	"Toppings.h"
@@ -127,7 +128,7 @@
 	<string>
 	<iostream>
 
-1512385865 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
+1512406562 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizza.cpp
 	"Pizza.h"
 	<string.h>
 	<string>
@@ -137,7 +138,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512385845 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512396430 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"
@@ -146,10 +147,10 @@
 	<vector>
 	"WriteList.h"
 
-1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
+1512402696 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1512175997 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
+1512399996 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
 	<string.h>
@@ -158,10 +159,18 @@
 1512169592 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
 
-1512391284 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
+1512405834 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
 	"StaffUI.h"
+	"WriteList.h"
+	"Pizza.h"
+	"PizzaUI.h"
+	<iostream>
+	<fstream>
+	"StaffToppingControl.h"
+	"Toppings.h"
+	"MainUI.h"
 
-1512391284 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
+1512394049 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffui.h
 
 1512169592 c:\users\ors2\desktop\verklegt_namskeid1\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
@@ -198,6 +207,7 @@
 1512384661 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\writelist.cpp
 	"WriteList.h"
 
+<<<<<<< HEAD
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\main.cpp
 	<iostream>
 	"MainUI.h"
@@ -257,6 +267,16 @@
 	"WriteList.h"
 
 1512393536 c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\include\writelist.h
+=======
+1512404281 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\stafftoppingcontrol.cpp
+	"StaffToppingControl.h"
+	<iostream>
+	<fstream>
+	"Toppings.h"
+	"WriteList.h"
+
+1512403661 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\stafftoppingcontrol.h
+>>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
 	"Toppings.h"
 	"Pizza.h"
 	<iostream>
@@ -264,6 +284,7 @@
 	"PizzaPlace.h"
 	"PizzaUI.h"
 
+<<<<<<< HEAD
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
@@ -278,4 +299,10 @@
 
 1512393536 source:c:\users\kjart\desktop\3javikna\three.weeks\finalproject2\new\src\writelist.cpp
 	"WriteList.h"
+=======
+1512400513 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzafrommenu.cpp
+	"PizzaFromMenu.h"
+
+1512400512 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzafrommenu.h
+>>>>>>> 7e5fcce3799eacb3e08e3ab80c5912a0bf46fc92
 
