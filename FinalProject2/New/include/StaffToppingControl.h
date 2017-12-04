@@ -17,6 +17,10 @@ class StaffToppingControl
         void ToppingControl2(Toppings toppings);
         void ToppingControl3(Toppings toppings);
 
+        void PrintTopping0();
+        void PrintTopping1();
+        void PrintTopping2();
+        void PrintTopping3();
 
     private:
 };

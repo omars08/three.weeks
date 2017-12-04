@@ -10,13 +10,14 @@ class Toppings
 {
     public:
         Toppings();
-        Toppings(int number, string name);
+        Toppings(int number, string name, int price);
         friend istream& operator >> (istream& in, Toppings& toppings);
         friend ostream& operator << (ostream& out, const Toppings& topping);
 
     private:
         int number;
         string name;
+        int price;
 
 };
 

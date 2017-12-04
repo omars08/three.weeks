@@ -1,6 +1,5 @@
-Number of topping: 1
-Name of topping: BBQ
 
-Number of topping: 2
-Name of topping: Salsa
+1 BBQ:150
+
+2 Salsa:200
 

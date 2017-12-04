@@ -36,13 +36,40 @@ void StaffUI::readOrders(int input)
     else if(input == 3){
         Toppings toppings;
         StaffToppingControl toppingcontrol;
-        int input;
+        char char_input;
+        cout << "Read (r) or alter (a) the toppings?" << endl;
+        cout << "   User input: ";
+        cin >> char_input;
+            if(char_input == 'r'){
+                cout << "Which topping category to print?" << endl;
+                cout << "1. Sauces and spices." << endl;
+                cout << "2. Vegetables and fruit." << endl;
+                cout << "3. Meats." << endl;
+                cout << "4. Luxury meats." << endl;
+                cout << "   User input: ";
+                int input;
+                cin >> input;
+                    if(input == 1){
+                        toppingcontrol.PrintTopping0();
+                    }
+                    else if(input == 2){
+                        toppingcontrol.PrintTopping1();
+                    }
+                    else if(input == 3){
+                        toppingcontrol.PrintTopping2();
+                    }
+                    else if(input == 4){
+                        toppingcontrol.PrintTopping3();
+                    }
+
+                }
+            else if(char_input == 'a'){
         cout << "Which topping category to alter?" << endl;
         cout << "1. Sauces and spices (0 kr.)." << endl;
         cout << "2. Vegetables and fruit (200 kr.)." << endl;
         cout << "3. Meats (300 kr.)." << endl;
         cout << "4. Luxury meats (350 kr.)." << endl;
-        cout << "User input: ";
+        cout << "   User input: ";
         cin >> input;
             if(input == 1){
                 toppingcontrol.ToppingControl0(toppings);
@@ -55,6 +82,7 @@ void StaffUI::readOrders(int input)
             }
             else if(input == 4){
                 toppingcontrol.ToppingControl3(toppings);
-            }
+        }
+    }
     }
 }
