@@ -38,8 +38,8 @@ void StaffUI::readOrders(int input)
         StaffToppingControl toppingcontrol;
         int input;
         cout << "Which topping category to alter?" << endl;
-        cout << "1. sauces and spices (0 kr.)." << endl;
-        cout << "2. vegetables and fruit (200 kr.)." << endl;
+        cout << "1. Sauces and spices (0 kr.)." << endl;
+        cout << "2. Vegetables and fruit (200 kr.)." << endl;
         cout << "3. Meats (300 kr.)." << endl;
         cout << "4. Luxury meats (350 kr.)." << endl;
         cout << "User input: ";

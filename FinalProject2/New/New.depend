@@ -150,7 +150,7 @@
 1512398596 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1512175997 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
+1512399996 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
 	<string.h>
@@ -159,7 +159,7 @@
 1512169592 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\staffloginui.h
 	<string>
 
-1512399509 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
+1512400370 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffui.cpp
 	"StaffUI.h"
 	"WriteList.h"
 	"Pizza.h"
@@ -207,7 +207,7 @@
 1512384661 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\writelist.cpp
 	"WriteList.h"
 
-1512398574 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\stafftoppingcontrol.cpp
+1512399854 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\stafftoppingcontrol.cpp
 	"StaffToppingControl.h"
 	<iostream>
 	<fstream>
@@ -221,4 +221,9 @@
 	<fstream>
 	"PizzaPlace.h"
 	"PizzaUI.h"
+
+1512400513 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzafrommenu.cpp
+	"PizzaFromMenu.h"
+
+1512400512 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzafrommenu.h
 

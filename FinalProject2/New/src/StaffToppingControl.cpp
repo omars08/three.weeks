@@ -16,7 +16,7 @@ void StaffToppingControl::ToppingControl0(Toppings toppings) /// Bætir við ókeyp
 {
     ofstream fout;
     fout.open ("toppingfree.txt", ios::app);
-
+    cin >> toppings;
     fout << toppings << endl;
 
     fout.close();
@@ -25,7 +25,7 @@ void StaffToppingControl::ToppingControl1(Toppings toppings) /// Bætir við grænm
 {
     ofstream fout;
     fout.open ("toppingVeg.txt", ios::app);
-
+    cin >> toppings;
     fout << toppings << endl;
 
     fout.close();
@@ -34,7 +34,7 @@ void StaffToppingControl::ToppingControl2(Toppings toppings) /// Bætir við ókeyp
 {
     ofstream fout;
     fout.open ("toppingMeat.txt", ios::app);
-
+    cin >> toppings;
     fout << toppings << endl;
 
     fout.close();
@@ -43,7 +43,7 @@ void StaffToppingControl::ToppingControl3(Toppings toppings) /// Bætir við ókeyp
 {
     ofstream fout;
     fout.open ("toppingLuxuryMeat.txt", ios::app);
-
+    cin >> toppings;
     fout << toppings << endl;
 
     fout.close();
