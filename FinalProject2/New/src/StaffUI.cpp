@@ -4,7 +4,9 @@
 #include "PizzaUI.h"
 #include <iostream>
 #include <fstream>
-
+#include "StaffToppingControl.h"
+#include "Toppings.h"
+#include "MainUI.h"
 using namespace std;
 StaffUI::StaffUI()
 {
@@ -30,5 +32,29 @@ void StaffUI::readOrders(int input)
     WriteList writelist;
     if(input == 1){
         writelist.reviewPizza();
+    }
+    else if(input == 3){
+        Toppings toppings;
+        StaffToppingControl toppingcontrol;
+        int input;
+        cout << "Which topping category to alter?" << endl;
+        cout << "1. sauces and spices (0 kr.)." << endl;
+        cout << "2. vegetables and fruit (200 kr.)." << endl;
+        cout << "3. Meats (300 kr.)." << endl;
+        cout << "4. Luxury meats (350 kr.)." << endl;
+        cout << "User input: ";
+        cin >> input;
+            if(input == 1){
+                toppingcontrol.ToppingControl0(toppings);
+            }
+            else if(input == 2){
+                toppingcontrol.ToppingControl1(toppings);
+            }
+            else if(input == 3){
+                toppingcontrol.ToppingControl2(toppings);
+            }
+            else if(input == 4){
+                toppingcontrol.ToppingControl3(toppings);
+            }
     }
 }

@@ -46,9 +46,6 @@ void MainUI::openingUI()
 
     while(selection != 'q'){
         mainui.introUI(); /// Prentar ASCII skjáinn.
-        //cout << "O: Create new order" << endl; birtist í ascii myndinni
-        //cout << "T: Make new topping" << endl; kannski eitthvað sem færist í staff ui
-        //cout << "S: Staff login" << endl; birtist í ascii myndinni
         cout << "User input: ";
         cin >> selection;
 
@@ -86,24 +83,24 @@ void MainUI::openingUI()
             cin >> login_name;
 
             if(stafflogin.check_login_name(login_name) == true){
-                //ENTER A USER INTERFACE CLASS TO MANIPULATE ORDERS AND PRICINGS
-                //cout << string(50, '\n');
                 char loginInput;
                 cout << "View staff options (y/n)? ";
                 cin >> loginInput;
                     StaffUI staffui;
-                    if(loginInput == 'y' || loginInput == 'Y'){
-                        staffui.printOrders();
-                        int input;
-                        cin >> input;
-                        staffui.readOrders(input);
-
+                    while(true){
+                        if(loginInput == 'y' || loginInput == 'Y'){
+                            staffui.printOrders(); ///prints the staff menu, 1-4.
+                            int input;
+                            cin >> input;
+                            if(input != 'q' || input != 'Q'){
+                            staffui.readOrders(input); ///reads the int input and enter the corresponding menu
+                        }
                     }
+                }
             }
             else{
                 cout << "Illegal user name: " << "\"" << login_name << "\"" << ". Entering Main UI.";
                 cout << endl;
-                introUI();
             }
         }
     }
