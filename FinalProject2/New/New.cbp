@@ -35,6 +35,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/MainUI.h" />
+		<Unit filename="include/NewPizzaToppings.h" />
 		<Unit filename="include/Pizza.h" />
 		<Unit filename="include/PizzaFromMenu.h" />
 		<Unit filename="include/PizzaPlace.h" />
@@ -46,6 +47,7 @@
 		<Unit filename="include/WriteList.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/MainUI.cpp" />
+		<Unit filename="src/NewPizzaToppings.cpp" />
 		<Unit filename="src/Pizza.cpp" />
 		<Unit filename="src/PizzaFromMenu.cpp" />
 		<Unit filename="src/PizzaPlace.cpp" />
