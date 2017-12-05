@@ -14,7 +14,7 @@ StaffLoginUI::StaffLoginUI(string login_name){
 
 StaffLoginUI::~StaffLoginUI()
 {
-    //dtor
+    //dtor///
 }
 
 bool StaffLoginUI::check_login_name(string login_name){
