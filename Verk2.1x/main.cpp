@@ -9,9 +9,9 @@ using namespace std;
 int main()
 {
     UI user_interface;
-    Repositorie re;
-    cin >> re;
 
     user_interface.Interface();
+    Repositorie re;
+    cin >> re;
     return 0;
 }

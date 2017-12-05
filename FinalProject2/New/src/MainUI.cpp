@@ -57,7 +57,7 @@ void MainUI::openingUI()
             pizzaOrderUI();
             pizza.makePizzaUI();
         }
-        else if(selection == 't'){
+        /*else if(selection == 't'){
             selection = '\0';
             PizzaPlace pizzaplace;
             do{
@@ -69,7 +69,7 @@ void MainUI::openingUI()
             }
             while(selection == 'y');
             cout << pizzaplace;
-        }
+        }*/ ///Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;

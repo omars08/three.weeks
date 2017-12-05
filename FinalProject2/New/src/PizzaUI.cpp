@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include "WriteList.h"
+#include "CustomerPrintToppings.h"
 ///B #include "NewPizzaToppings.h"
 using namespace std;
 
@@ -20,12 +21,16 @@ void PizzaUI::makePizzaUI()
 
     while(selection != 'q' || selection != 'Q'){
     int selectCounter = 0;
-        cout << "O: Order from menu" << endl;
-        cout << "P: Make your pizza" << endl;
-        cout << "R: Review order " << endl;
-        cout << "F: Search for order" << endl;
-        cout << "Q: quit" << endl;
-
+        cout << " ----------------------- " << endl;
+        cout << "|                       |" << endl;
+        cout << "| O:   Order from menu  |" << endl;
+        cout << "| P:   Make your pizza  |" << endl;
+        cout << "| R:   Review order     |" << endl;
+        cout << "| F:   Search for order |" << endl;
+        cout << "| Q:   Quit             |" << endl;
+        cout << "|                       |" << endl;
+        cout << " ----------------------- " << endl;
+        cout << "   User input: ";
         cin >> selection;
         while(selection != 'q' || selection != 'Q'){
         if(selection == 'p' || selection == 'P'){
@@ -41,20 +46,21 @@ void PizzaUI::makePizzaUI()
                 Toppings toppings;
                     char input;
                     while(input != 'n'){
-                    cout << "Want to browse the toppings (y/n)? ";
+                    cout << endl;
+                    cout << "   Want to browse the toppings (y/n)? ";
                     cin >> input;
                         if(input == 'y'){
                             int topping_input = 0;
                             cout << endl;
                             cout << "Which topping category to print?" << endl;
-                            cout << "1. Sauces and spices (0 kr.)." << endl;
-                            cout << "2. Vegetables and fruit (200 kr.)." << endl;
-                            cout << "3. Meats (300 kr.)." << endl;
-                            cout << "4. Luxury meats (350 kr.)." << endl;
+                            cout << "1. Sauces and spices." << endl;
+                            cout << "2. Vegetables and fruit." << endl;
+                            cout << "3. Meats." << endl;
+                            cout << "4. Luxury meats." << endl;
                             cout << "   Customer input: ";
                             cin >> topping_input;
-                            ///NewPizzaToppings printtoppings;
-                            ///printtoppings.PrintAvailableToppings(topping_input);
+                            CustomerPrintToppings printtoppings;
+                            printtoppings.PrintToppings(topping_input);
                         }
 
                     }
