@@ -31,7 +31,7 @@ istream& operator >> (istream& in, Pizza& pizza)
     cout << "Your name: ";
     in >> pizza.name;
     cout << "Phone number: ";
-    cin >> pizza.phone;
+    in >> pizza.phone;
     cout << "What size is the pizza: (9, 12, 16) ";
     in >> pizza.size;
         if(pizza.size <= 9){
@@ -43,6 +43,7 @@ istream& operator >> (istream& in, Pizza& pizza)
         else if(pizza.size <= 16 || pizza.size >= 16){
             pizza.size = 16;
         }
+    cout << "Pizza bases available:";
     return in;
 }
 

@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include "WriteList.h"
-
+#include "NewPizzaToppings.h"
 using namespace std;
 
 PizzaUI::PizzaUI()
@@ -27,7 +27,7 @@ void PizzaUI::makePizzaUI()
         cout << "Q: quit" << endl;
 
         cin >> selection;
-
+        while(selection != 'q' || selection != 'Q'){
         if(selection == 'p' || selection == 'P'){
             Pizza thepizza;
             cout << "*Default pizza is Margherita, only cheese." << endl;
@@ -39,6 +39,25 @@ void PizzaUI::makePizzaUI()
             if(selection == 'y'){
                 while(selection == 'y'){
                 Toppings toppings;
+                    char input;
+                    while(input != 'n'){
+                    cout << "Want to browse the toppings (y/n)? ";
+                    cin >> input;
+                        if(input == 'y'){
+                            int topping_input = 0;
+                            cout << endl;
+                            cout << "Which topping category to print?" << endl;
+                            cout << "1. Sauces and spices (0 kr.)." << endl;
+                            cout << "2. Vegetables and fruit (200 kr.)." << endl;
+                            cout << "3. Meats (300 kr.)." << endl;
+                            cout << "4. Luxury meats (350 kr.)." << endl;
+                            cout << "   Customer input: ";
+                            cin >> topping_input;
+                            NewPizzaToppings printtoppings;
+                            printtoppings.PrintAvailableToppings(topping_input);
+                        }
+
+                    }
                 cin >> toppings;
                 thepizza.add_topping(toppings);
                 cout << "Add another topping: (y/n)? ";
@@ -118,5 +137,6 @@ void PizzaUI::makePizzaUI()
         if(selection == 'o'){
 
         }
-    }
+        }
+}
 }

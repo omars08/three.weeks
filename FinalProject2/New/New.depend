@@ -138,7 +138,7 @@
 1512063668 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaplace.cpp
 	"PizzaPlace.h"
 
-1512408876 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
+1512482189 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\pizzaui.cpp
 	"PizzaUI.h"
 	<iostream>
 	"Pizza.h"
@@ -146,6 +146,7 @@
 	<string>
 	<vector>
 	"WriteList.h"
+	"NewPizzaToppings.h"
 
 1512402696 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
@@ -308,9 +309,10 @@
 
 1512400512 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzafrommenu.h
 
-1512480860 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\newpizzatoppings.cpp
+1512481197 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\newpizzatoppings.cpp
 	"NewPizzaToppings.h"
 	"StaffLoginUI.h"
+	"StaffToppingControl.h"
 
-1512480285 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\newpizzatoppings.h
+1512481024 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\newpizzatoppings.h
 
