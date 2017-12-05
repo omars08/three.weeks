@@ -7,7 +7,7 @@ class NewPizzaToppings
     public:
         NewPizzaToppings();
         virtual ~NewPizzaToppings();
-        void PrintAvailableToppings();
+        void PrintAvailableToppings(int input);
 
 
     private:
