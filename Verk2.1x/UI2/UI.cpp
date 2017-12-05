@@ -1,11 +1,13 @@
 #include "UI.h"
-
+#include <iostream>
+using namespace std;
 UI::UI()
 {
     //ctor
 }
 
-UI::~UI()
+
+void UI::test()
 {
-    //dtor
+    cout << "WORKS";
 }

@@ -1,6 +1,7 @@
 #ifndef REPOSITORIE_H
 #define REPOSITORIE_H
-
+#include <iostream>
+using namespace std;
 
 class Repositorie
 {
