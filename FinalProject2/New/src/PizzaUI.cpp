@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include "WriteList.h"
-#include "NewPizzaToppings.h"
+///B #include "NewPizzaToppings.h"
 using namespace std;
 
 PizzaUI::PizzaUI()
@@ -53,8 +53,8 @@ void PizzaUI::makePizzaUI()
                             cout << "4. Luxury meats (350 kr.)." << endl;
                             cout << "   Customer input: ";
                             cin >> topping_input;
-                            NewPizzaToppings printtoppings;
-                            printtoppings.PrintAvailableToppings(topping_input);
+                            ///NewPizzaToppings printtoppings;
+                            ///printtoppings.PrintAvailableToppings(topping_input);
                         }
 
                     }
