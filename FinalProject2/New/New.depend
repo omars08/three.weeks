@@ -150,7 +150,7 @@
 1512402696 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\toppings.cpp
 	"Toppings.h"
 
-1512399996 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
+1512431335 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\staffloginui.cpp
 	"StaffLoginUI.h"
 	<string>
 	<string.h>
@@ -307,4 +307,10 @@
 	"PizzaFromMenu.h"
 
 1512400512 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\pizzafrommenu.h
+
+1512480860 source:c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\src\newpizzatoppings.cpp
+	"NewPizzaToppings.h"
+	"StaffLoginUI.h"
+
+1512480285 c:\users\sindri dan\desktop\3vikna\three.weeks\finalproject2\new\include\newpizzatoppings.h
 

@@ -2,8 +2,4 @@
 * Name: Sindri, phone number: 6612180
 * Size: 9
 * Toppings: 
-1 Pepperoni:100 
-* Name: Kjartan, phone number: 5812345
-* Size: 9
-* Toppings: 
-3 sveppir:200 
+1 Well:100 
