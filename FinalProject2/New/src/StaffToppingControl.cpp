@@ -22,7 +22,7 @@ void StaffToppingControl::ToppingControl0(Toppings toppings) /// Bætir við ókeyp
 
     fout.close();
 }
-void StaffToppingControl::ToppingControl1(Toppings toppings) /// Bætir við grænmetis topping í skrá toppingfree.txt. 200 kr.
+void StaffToppingControl::ToppingControl1(Toppings toppings) /// Bætir við grænmetis topping í skrá toppingVeg.txt. 200 kr.
 {
     ofstream fout;
     fout.open ("toppingVeg.txt", ios::app);
@@ -32,7 +32,7 @@ void StaffToppingControl::ToppingControl1(Toppings toppings) /// Bætir við grænm
 
     fout.close();
 }
-void StaffToppingControl::ToppingControl2(Toppings toppings) /// Bætir við ókeypis topping í skrá toppingfree.txt. 300 kr.
+void StaffToppingControl::ToppingControl2(Toppings toppings) /// Bætir við kjöt topping í skrá toppingMeat.txt. 300 kr.
 {
     ofstream fout;
     fout.open ("toppingMeat.txt", ios::app);
@@ -42,7 +42,7 @@ void StaffToppingControl::ToppingControl2(Toppings toppings) /// Bætir við ókeyp
 
     fout.close();
 }
-void StaffToppingControl::ToppingControl3(Toppings toppings) /// Bætir við ókeypis topping í skrá toppingfree.txt. 350 kr.
+void StaffToppingControl::ToppingControl3(Toppings toppings) /// Bætir við lúxus kjöt topping í skrá toppingLuxuryMeat.txt. 350 kr.
 {
     ofstream fout;
     fout.open ("toppingLuxuryMeat.txt", ios::app);

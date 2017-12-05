@@ -1,8 +1,9 @@
 #include "Pizza.h"
 #include <string.h>
-#include<string>
-#include<iostream>
+#include <string>
+#include <iostream>
 #include <vector>
+#include <Toppings.h>
 
 using namespace std;
 
@@ -13,11 +14,12 @@ Pizza::Pizza()
 
 }
 
-Pizza::Pizza(string name, int size, int phone, vector<Toppings> toppings)
+Pizza::Pizza(string name, int size, int phone, char base, vector<Toppings> toppings)
 {
     this->name = name;
     this->size = size;
     this->phone = phone;
+    this->base = base;
 
 }
 
@@ -43,18 +45,27 @@ istream& operator >> (istream& in, Pizza& pizza)
         else if(pizza.size <= 16 || pizza.size >= 16){
             pizza.size = 16;
         }
-    cout << "Pizza bases available:";
+    cout << "Pizza bases available: thick (t) and italian (i): ";
+    in >> pizza.base;
+        if(pizza.base == 'T' || pizza.base == 't'){
+            pizza.base = 'T';
+        }
+        else if(pizza.base == 'i' || pizza.base == 'I'){
+            pizza.base = 'I';
+        }
     return in;
 }
 
 ostream& operator << (ostream& out, const Pizza& pizza) {
     out << endl;
-    out << "* Name: " << pizza.name << ", phone number: " << pizza.phone << endl;
-    out << "* Size: " << pizza.size << endl;
-    out << "* Toppings: " << endl;
+    out << " Name: " << pizza.name << ", phone number: " << pizza.phone << endl;
+    out << " Size: " << pizza.size << endl;
+    out << " Base: " << pizza.base << endl;
+    out << " Toppings: ";
     for(unsigned int i = 0; i < pizza.toppings.size(); i++){
         out << pizza.toppings[i] << " ";
     }
+    out << endl;
         return out;
 }
 
