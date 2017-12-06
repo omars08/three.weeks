@@ -9,8 +9,8 @@ using namespace std;
 
 Pizza::Pizza()
 {
-    name = "Margarita";
-    size = 16;
+    ///name = ""; - þurfum við núllstilli, ekki bara villumeldingu ef vv er að skrifa eh óleyfilegt í input?
+    ///size = 0;
 
 }
 

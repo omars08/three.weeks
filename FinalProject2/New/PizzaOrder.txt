@@ -1,0 +1,10 @@
+
+ Name: Kari, phone number: 3211234
+ Size: 9
+ Base: T
+ Toppings: 1 BBQ:300 2 fat:100 
+
+ Name: Margherita, phone number: 5556662
+ Size: 9
+ Base: T
+ Toppings: 

@@ -26,7 +26,7 @@ void MainUI::introUI(){
    cout << " --------------| W E L C O M E  T O  C + +  P I Z Z A |--------------" << endl;
    cout << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
-   cout << " |        Are you hungry?        |  |          Administrator        |" << endl;
+   cout << " |        Are you hungry?        |  |         Administrator         |" << endl;
    cout << " |  How about some nice pizza?   |  |   Press 'S' for staff login   |" << endl;
    cout << " |      Press 'O' to order!      |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
