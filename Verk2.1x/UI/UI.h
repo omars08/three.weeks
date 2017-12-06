@@ -7,9 +7,10 @@ class UI
 {
     public:
         UI();
-        void test();
+        void Interface();
 
     private:
+    int number;
 };
 
 #endif // UI_H
