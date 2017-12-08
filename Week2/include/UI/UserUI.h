@@ -12,10 +12,10 @@ class UserUI
     public:
         UserUI();
         void main_menu();
-        Employee create_employee();
+        Employee create_employee(); ///þetta fall skilar Employee
 
     private:
-        Employee_Records employee_records;
+        Employee_Records employee_records; ///Með tilvik af employee_records sem private breytu
 };
 
 #endif // USERUI_H

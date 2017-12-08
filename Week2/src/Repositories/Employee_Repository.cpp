@@ -5,7 +5,7 @@ Employee_Repository::Employee_Repository()
     //ctor
 }
 
-void Employee_Repository::add_employee(const Employee& employee)
+void Employee_Repository::add_employee(const Employee& employee) ///Les employee af skjá og skellir því í txt skrá.
 {
     ofstream fout;
     fout.open ("employee_records.txt", ios::app);
@@ -14,31 +14,53 @@ void Employee_Repository::add_employee(const Employee& employee)
         fout.close();
     }
     else {
-        ///kasta villu
+        ///kasta villu eða eithvað
     }
 }
-
-///Næ ekki að láta getline bæta inn í class.
+///Þetta er fall sem skilar vector(fylki) af employees sem það les upp úr txt skrá. Svínvirkar.
 vector<Employee> Employee_Repository::read_employee_files()
 {
-    vector <Employee> list_of_employee_records;
-    string a;
-    Employee employee;
+    string a; /// bý til string breytu
+    vector<Employee> employee_list; ///Bý til vector af employee. Vectorinn er tómur núna
     ifstream fin;
-    fin.open ("employee_records.txt");
-
-    if(fin.is_open()){
+    int counter = 0; ///Þessi countar hvar í línu við erum.
+    fin.open ("employee_records.txt"); ///Opnar skrá
+    if(fin.is_open()) { ///Leyfir okkur að bæta á skránna EF hún er opin
         while(!fin.eof()) {
-            getline(fin, a, ',');
-            fin >> employee;
+            Employee employee; /// Búum til nýtt tilvik af Employee
+            Salary salary;
+            if(counter == 0){
+                ///Afmarkar hluti úr textaskrá afmarkaða af ',' og bætir þeim inn í string breytuna a
+                employee.set_name(a); ///Bætir inn í tilvikið af employee. Í þessu tilfelli er það name.
+                counter++; ///Bætir 1 við teljarann svo næsta atriði í línunni fari í næstu breytu.
             }
-            list_of_employee_records.push_back(employee);
+            if(counter == 1){ ///Ef counter == 1 þá fer það atriði í ssn breytuna í employee
+                getline(fin, a, ',');
+                employee.set_ssn(a);
+                counter++;
+                }/*
+            if(counter == 2){
+                getline(fin, a, ',');
+                int c = atof(a.c_str()); ///Þetta tekur inn streng breytu og breytir henni í double breytu svo hún komist á réttu formati í salary dálkinn
+                employee.set_salary(c);
+                counter++;
+                }
+            if(counter == 3){
+                getline(fin, a, ',');
+                int c = atoi(a.c_str());///Þetta tekur inn streng breytu og breytir henni í int breytu svo hún komist á réttu formati í month dálkinn
+                employee.set_month(c);
+                counter++;
+                }
+            if(counter == 4){
+                getline(fin, a, ',');
+                int c = atoi(a.c_str());
+                employee.set_year(c);
+                employee_list.push_back(employee); ///hér eru öll gildi kominn í employee úr einni línu í text file og þá er þessum employee komið fyrir í vectornum employee_list
+                counter = 0; ///Counter resettaður því línan er búin og ferlið hefst aftur með öðru tilviki af Employee.
+                    }*/
+            }
+        fin.close();
         }
-    fin.close();
 
-    for(unsigned int i = 0; i < list_of_employee_records.size(); i++){
-        cout << list_of_employee_records[i] << endl;
-    }
-
-    return list_of_employee_records;
+    return employee_list;///þegar búið er að lesa allar línurnar þá skilar fallið vectornum employee_list út.
 }
