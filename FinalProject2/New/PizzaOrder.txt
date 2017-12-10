@@ -8,3 +8,13 @@
  Size: 9
  Base: T
  Toppings: 
+
+ Name: Sindri, phone number: 6612180
+ Size: 9
+ Base: I
+ Toppings: 1 Salt:0 
+
+ Name: Margherita, phone number: 6112180
+ Size: 9
+ Base: I
+ Toppings: 

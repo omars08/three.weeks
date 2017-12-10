@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PizzaPlace" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PizzaPlace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="UI" />
+					<Add directory="Service" />
+					<Add directory="Database" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PizzaPlace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="UI" />
+					<Add directory="Service" />
+					<Add directory="Database" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Database/StaffToppingControl.cpp" />
+		<Unit filename="Database/StaffToppingControl.h" />
+		<Unit filename="Database/WriteList.cpp" />
+		<Unit filename="Database/WriteList.h" />
+		<Unit filename="Service/CustomerPrintToppings.cpp" />
+		<Unit filename="Service/CustomerPrintToppings.h" />
+		<Unit filename="Service/Pizza.cpp" />
+		<Unit filename="Service/Pizza.h" />
+		<Unit filename="Service/PizzaPlace.cpp" />
+		<Unit filename="Service/PizzaPlace.h" />
+		<Unit filename="Service/Toppings.cpp" />
+		<Unit filename="Service/Toppings.h" />
+		<Unit filename="UI/MainUI.cpp" />
+		<Unit filename="UI/MainUI.h" />
+		<Unit filename="UI/PizzaUI.cpp" />
+		<Unit filename="UI/PizzaUI.h" />
+		<Unit filename="UI/StaffLoginUI.cpp" />
+		<Unit filename="UI/StaffLoginUI.h" />
+		<Unit filename="UI/StaffUI.cpp" />
+		<Unit filename="UI/StaffUI.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
