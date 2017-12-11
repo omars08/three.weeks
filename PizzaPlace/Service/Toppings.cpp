@@ -26,7 +26,7 @@ istream& operator >> (istream& in, Toppings& toppings)
     in >> toppings.number;
     cout << "Name the topping: ";
     in >> toppings.name;
-    cout << "Price: ";
-    in >> toppings.price;
+    //cout << "Price: "; -- má ekki handskrifa, verður að vera skráð sjálfvirkt með stærðinni. 1*sp, 1,25*sp og 1,50*sp
+    //in >> toppings.price;
     return in;
 }

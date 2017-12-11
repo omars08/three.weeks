@@ -1,9 +1,14 @@
 #include <iostream>
+#include "MainUI.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
+    MainUI mainui;
+    //mainui.introUI();
+    mainui.openingUI();
+
     return 0;
 }

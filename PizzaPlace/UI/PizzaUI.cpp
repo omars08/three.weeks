@@ -6,7 +6,7 @@
 #include <vector>
 #include "WriteList.h"
 #include "CustomerPrintToppings.h"
-///B #include "NewPizzaToppings.h"
+#include "MainUI.h"
 using namespace std;
 
 PizzaUI::PizzaUI()
@@ -24,21 +24,19 @@ void PizzaUI::makePizzaUI()
         cout << " ----------------------- " << endl;
         cout << "|                       |" << endl;
         cout << "| O:   Order from menu  |" << endl;
-        cout << "| P:   Make your pizza  |" << endl;
+        cout << "| P:   Custom Pizza     |" << endl;
         cout << "| R:   Review order     |" << endl;
         cout << "| F:   Search for order |" << endl;
-        cout << "| Q:   Quit             |" << endl;
-        cout << "|                       |" << endl;
+        cout << "| Q:   Return to        |" << endl;
+        cout << "|      main menu.       |" << endl;
         cout << " ----------------------- " << endl;
         cout << "   User input: ";
         cin >> selection;
-        while(selection != 'q' || selection != 'Q'){
         if(selection == 'p' || selection == 'P'){
             Pizza thepizza;
-            cout << "*Default pizza is Margherita, only cheese." << endl;
             cin >> thepizza;
             Toppings toppings;
-            cout << "Want to add a topping: (y/n)? ";
+            cout << " Want to add a topping: (y/n)? ";
             cin >> selection;
 
             if(selection == 'y'){
@@ -47,16 +45,16 @@ void PizzaUI::makePizzaUI()
                     char input;
                     while(input != 'n'){
                     cout << endl;
-                    cout << "   Want to browse the toppings (y/n)? ";
+                    cout << " Want to browse the toppings (y/n)? ";
                     cin >> input;
                         if(input == 'y'){
                             int topping_input = 0;
                             cout << endl;
-                            cout << "Which topping category to print?" << endl;
-                            cout << "1. Sauces and spices." << endl;
-                            cout << "2. Vegetables and fruit." << endl;
-                            cout << "3. Meats." << endl;
-                            cout << "4. Luxury meats." << endl;
+                            cout << "What topping category to print out?" << endl;
+                            cout << " 1. Sauces and spices." << endl;
+                            cout << " 2. Vegetables and fruit." << endl;
+                            cout << " 3. Meats." << endl;
+                            cout << " 4. Luxury meats." << endl;
                             cout << "   Customer input: ";
                             cin >> topping_input;
                             CustomerPrintToppings printtoppings;
@@ -75,8 +73,8 @@ void PizzaUI::makePizzaUI()
                 cout << "No topping added ";
                 cout << "This is your pizza: " << endl;
                 if(selectCounter == 0){
-                    string margaName = "Margherita";
-                    thepizza.set_name(margaName);
+                    //string margaName = "Margherita";
+                    //thepizza.set_name(margaName);
                 }
                 else{
                  cout << thepizza; //current order
@@ -87,7 +85,7 @@ void PizzaUI::makePizzaUI()
             writelist.storePizza(thepizza);
 
         }
-        else if(selection == 'f' || selection == 'F')
+        /*else if(selection == 'f' || selection == 'F')
         {
             int number;
             string answer;
@@ -103,7 +101,7 @@ void PizzaUI::makePizzaUI()
             number = number * 4;
 
 
-            fif.open ("PizzaOrder.txt", ios::app);
+            fif.open ("PizzaOrder.txt", ios::app); /// endurvinna þennan part
 
             for(int i = 0; i < number ;i++)
             {
@@ -135,14 +133,19 @@ void PizzaUI::makePizzaUI()
                 cout << i << " matches" << endl;
             }
             fif.close();
-        }
+        }*/ ///þarf að nota aðferðina úr week2 verkefninu
         else if(selection == 'r' || selection == 'R'){
                 WriteList writelist;
                 writelist.reviewPizza();
             }
-        if(selection == 'o'){
+        else if(selection == 'o'){
 
         }
+        else if(selection == 'q' || selection == 'Q'){
+
+            MainUI mainui;
+            cout << string(20, '\n');
+            mainui.openingUI();
         }
-}
+        }
 }

@@ -1,0 +1,14 @@
+
+ Name: Sindri, phone number: 6612180
+ Size: 9
+ Base: I
+ Toppings: 
+1 Pepperoni:0 
+ Price: 750
+
+ Name: Margherita, phone number: 51345567
+ Size: 9
+ Base: T
+ Toppings: 
+
+ Price: 1000

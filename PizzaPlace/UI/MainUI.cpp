@@ -27,8 +27,8 @@ void MainUI::introUI(){
    cout << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << " |       To create an order      |  |       Administrator: 'A'      |" << endl;
-   cout << " |               *               |  |   Press 'S' for staff login   |" << endl;
-   cout << " |            Press 'O'          |  |            Q: quit            |" << endl;
+   cout << " |              :-:              |  |   Press 'S' for staff login   |" << endl;
+   cout << " |           Press 'O'           |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << endl;
    cout << " For customer service and complaints, type \"ABORT\" and press enter." << endl;
