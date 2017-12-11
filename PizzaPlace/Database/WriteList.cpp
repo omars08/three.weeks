@@ -15,7 +15,7 @@ void WriteList::storePizza (Pizza pizza) ///Þetta fall tekur inn pizzu og bætir 
     fout.close();
 }
 
-void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skrá Toppings.txt.
+/*void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skrá Toppings.txt.
 {
     ofstream fout;
     fout.open ("Toppings.txt", ios::app);
@@ -23,7 +23,7 @@ void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skr
     fout << toppings;
 
     fout.close();
-}
+}*/
 void WriteList::reviewPizza ()
 {
     string line;

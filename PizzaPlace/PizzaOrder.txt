@@ -1,14 +1,63 @@
 
- Name: Sindri, phone number: 6612180
- Size: 9
- Base: I
- Toppings: 
-1 Pepperoni:0 
- Price: 750
-
- Name: Margherita, phone number: 51345567
+ Name: Stan
  Size: 9
  Base: T
  Toppings: 
+Pepperoni,200 
+ Price: 1200
 
- Price: 1000
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 Skinka,150 
+ Price: 1350
+
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 
+ Price: 1200
+
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 Hakk,150 
+ Price: 1350
+
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 
+ Price: 1200
+
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 Skinka,150 
+ Price: 1350
+
+ Name: Stan
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 Skinka,150 Pepperoni,200 
+ Price: 1550
+
+ Name: ag
+ Size: 9
+ Base: T
+ Toppings: 
+Pepperoni,200 
+ Price: 1200
+
+ Name: ag
+ Size: 16
+ Base: T
+ Toppings: 
+Pepperoni,200 
+ Price: 2200

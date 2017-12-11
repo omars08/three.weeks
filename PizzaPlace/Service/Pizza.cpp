@@ -14,11 +14,11 @@ Pizza::Pizza()
 
 }
 
-Pizza::Pizza(string name, int size, int phone, char base, int price, vector<Toppings> toppings)
+Pizza::Pizza(string name, int size, char base, int price, vector<Toppings> toppings)
 {
     this->name = name;
     this->size = size;
-    this->phone = phone;
+    //this->phone = phone;
     this->base = base;
     this->price = price;
 
@@ -27,6 +27,7 @@ Pizza::Pizza(string name, int size, int phone, char base, int price, vector<Topp
 void Pizza::add_topping (Toppings topping)
 {
     this->toppings.push_back(topping);
+    this->price += topping.get_price();
 }
 
 istream& operator >> (istream& in, Pizza& pizza)
@@ -34,8 +35,8 @@ istream& operator >> (istream& in, Pizza& pizza)
     pizza.price = 0;
     cout << "Customer name: ";
     in >> pizza.name;
-    cout << "Phone number: ";
-    in >> pizza.phone;
+    //cout << "Phone number: ";
+    //in >> pizza.phone;
     cout << "What size is the pizza: (9, 12, 16): ";
     in >> pizza.size;
         if(pizza.size <= 9){
@@ -63,7 +64,7 @@ istream& operator >> (istream& in, Pizza& pizza)
 
 ostream& operator << (ostream& out, const Pizza& pizza) {
     out << endl;
-    out << " Name: " << pizza.name << ", phone number: " << pizza.phone << endl;
+    out << " Name: " << pizza.name << endl;
     out << " Size: " << pizza.size << endl;
     out << " Base: " << pizza.base << endl;
     out << " Toppings: " << endl;

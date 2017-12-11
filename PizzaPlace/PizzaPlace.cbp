@@ -38,10 +38,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Database/CustomerOrderData.cpp" />
+		<Unit filename="Database/CustomerOrderData.h" />
 		<Unit filename="Database/StaffToppingControl.cpp" />
 		<Unit filename="Database/StaffToppingControl.h" />
 		<Unit filename="Database/WriteList.cpp" />
 		<Unit filename="Database/WriteList.h" />
+		<Unit filename="Service/Customer.cpp" />
+		<Unit filename="Service/Customer.h" />
 		<Unit filename="Service/CustomerPrintToppings.cpp" />
 		<Unit filename="Service/CustomerPrintToppings.h" />
 		<Unit filename="Service/Pizza.cpp" />
@@ -50,6 +54,8 @@
 		<Unit filename="Service/PizzaPlace.h" />
 		<Unit filename="Service/Toppings.cpp" />
 		<Unit filename="Service/Toppings.h" />
+		<Unit filename="Service/ToppingsService.cpp" />
+		<Unit filename="Service/ToppingsService.h" />
 		<Unit filename="UI/MainUI.cpp" />
 		<Unit filename="UI/MainUI.h" />
 		<Unit filename="UI/PizzaUI.cpp" />

@@ -10,19 +10,20 @@
 class StaffToppingControl
 {
     public:
-        StaffToppingControl();
+        StaffToppingControl(){ };
         virtual ~StaffToppingControl();
         void ToppingControl0(Toppings toppings);
-        void ToppingControl1(Toppings toppings);
+        /*void ToppingControl1(Toppings toppings);
         void ToppingControl2(Toppings toppings);
-        void ToppingControl3(Toppings toppings);
+        void ToppingControl3(Toppings toppings);*/
 
-        void PrintTopping0();
-        void PrintTopping1();
+        vector<Toppings> getAllToppings();
+        /*void PrintTopping1();
         void PrintTopping2();
-        void PrintTopping3();
+        void PrintTopping3();*/
 
     private:
+        Toppings topping;
 };
 
 #endif // STAFFTOPPINGCONTROL_H
