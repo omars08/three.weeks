@@ -11,6 +11,7 @@ class UI
 
     private:
     int number;
+    string SSN;
 };
 
 #endif // UI_H

@@ -31,3 +31,19 @@
 	<string>
 	<fstream>
 
+1512481521 source:c:\users\kjart\desktop\3javikna\taka2\three.weeks\superhero.kj\main.cpp
+	<iostream>
+	<string>
+	<Heroes.h>
+
+1512481521 c:\users\kjart\desktop\3javikna\taka2\three.weeks\superhero.kj\include\heroes.h
+	<iostream>
+	<string>
+	<fstream>
+
+1512481521 source:c:\users\kjart\desktop\3javikna\taka2\three.weeks\superhero.kj\src\heroes.cpp
+	"Heroes.h"
+	<iostream>
+	<string>
+	<fstream>
+

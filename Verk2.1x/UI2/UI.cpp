@@ -1,5 +1,6 @@
 #include "UI.h"
 #include "Repositorie.h"
+#include "Services.h"
 #include <iostream>
 using namespace std;
 UI::UI()
@@ -27,12 +28,17 @@ void UI::Interface()
         }
         else if(number == 1)
         {
-            cout << "To the Salary record";
+            Repositorie re;
+            cin >> re;
             check = false;
         }
         else if(number == 2)
         {
-            cout << " ";
+            Services ser;
+            cout << "Input SSN: ";
+            cin >> SSN;
+            ser.service_func(SSN);
+
         }
     }
     catch(int e){

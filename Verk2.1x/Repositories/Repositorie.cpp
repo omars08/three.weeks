@@ -1,6 +1,7 @@
 #include "Repositorie.h"
 #include <iostream>
 #include <istream>
+#include <fstream>
 using namespace std;
 Repositorie::Repositorie()
 {
@@ -17,23 +18,23 @@ Repositorie::Repositorie(string _name, int _SSN, int _salary,int _month,int _yea
 
  istream& operator >> (istream& in, Repositorie& re)
 {
-    cout << "Name: ";
+    cout << "Name: " << endl;
     in >> re.name;
-    cout << "SSN: ";
+    cout << "SSN: " << endl;
     in >> re.SSN;
-    cout << "Salary: ";
+    cout << "Salary: " << endl;
     in >> re.salary;
-    cout << "Month: ";
+    cout << "Month: " << endl;
     in >> re.month;
-    cout << "Year: ";
+    cout << "Year: " << endl;
     in >> re.year;
-
+    re.Rep_func();
     return in;
 }
  ostream& operator << (ostream& out, Repositorie& re)
 {
 
-    out << "Name: " << re.name << endl;
+    out << "Name: " << re.name  << endl;
     out << "SSN: " << re.SSN << endl;
     out << "Salary: " << re.salary << endl;
     out << "Month: " << re.month << endl;
@@ -41,7 +42,15 @@ Repositorie::Repositorie(string _name, int _SSN, int _salary,int _month,int _yea
 
     return out;
 }
-void Rep_func()
+void Repositorie::Rep_func()
 {
+    fof.open("EmployInfo.txt", ios::app);                /// Open text file and naming it
+    fof << "Name: " << name  << endl;
+    fof << "SSN: " << SSN << endl;
+    fof << "Salary: " << salary << endl;
+    fof << "Month: " << month << endl;
+    fof << "Year: " << year << endl;
+                                                            /// Writes into text file
+    fof.close();                                            ///close text file
 
 }

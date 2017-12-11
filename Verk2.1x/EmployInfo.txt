@@ -1,0 +1,15 @@
+Name: Kjartan
+SSN: 2010
+Salary: 100
+Month: 1
+Year: 1984
+Name: Brian
+SSN: 2111
+Salary: 21333
+Month: 2
+Year: 1922
+Name: Kjartan
+SSN: 2010
+Salary: 32
+Month: 23
+Year: 212

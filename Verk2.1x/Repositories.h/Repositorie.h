@@ -2,6 +2,7 @@
 #define REPOSITORIE_H
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
@@ -16,8 +17,10 @@ class Repositorie
         void Rep_func();
 
     private:
+    ifstream fif;
+    ofstream fof;
     string name;
-    int SSN;
+    string SSN;
     int salary;
     int month;
     int year;
