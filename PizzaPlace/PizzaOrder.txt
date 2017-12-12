@@ -1,24 +1,13 @@
-Braga
- Size: 9
- Base: T
- Toppings: 
-Skinka,150 Hakk,150 
- Price: 1300
+Nonni
+9
+T
 
- Size: 12
- Base: I
- Toppings: 
-Pepperoni,200 
- Price: 1700
-Omar
- Size: 9
- Base: T
- Toppings: 
-Paprika,100 Pepperoni,200 
- Price: 1300
+Pepperoni,200 Ham,150 
+1350
 
- Size: 9
- Base: I
- Toppings: 
-Pepperoni,200 
- Price: 1200
+12
+T
+
+Onion,100 Beef,150 
+1750
+3100

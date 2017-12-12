@@ -15,12 +15,20 @@ void WriteList::storeName(string name)
     fout.close();
 }
 
-void WriteList::storePizza (Pizza pizza) ///Þetta fall tekur inn pizzu og bætir á lista. Sé önnur pizza útbúin þá bætist hún aftan á listan.
+void WriteList::storePizza(Pizza pizza) ///Þetta fall tekur inn pizzu og bætir á lista. Sé önnur pizza útbúin þá bætist hún aftan á listan.
 {
     ofstream fout;
     fout.open ("PizzaOrder.txt", ios::app);
 
     fout << pizza;
+
+    fout.close();
+}
+void WriteList::storeTotalPrice(int totalPrice)
+{
+    ofstream fout;
+    fout.open("PizzaOrder.txt", ios::app);
+    fout << totalPrice;
 
     fout.close();
 }

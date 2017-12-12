@@ -15,10 +15,12 @@ class WriteList
         WriteList();
         void storeName(string name);
         void storePizza (Pizza pizza);
+        void storeTotalPrice(int totalPrice);
         void storeToppingList (Toppings toppings);
         void reviewPizza ();
 
     private:
+        int totalPrice;
 };
 
 #endif // WRITELIST_H

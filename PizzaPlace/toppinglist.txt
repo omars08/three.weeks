@@ -1,4 +1,1 @@
-Pepperoni,200,
-Skinka,150,
-Hakk,150,
-Paprika,100,
+Pepperoni,200,Ham,150,Beef,150,Paprika,100,Onion,100

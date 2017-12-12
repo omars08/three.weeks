@@ -13,6 +13,7 @@ class Pizza
         Pizza();
         Pizza(int size, char base, int price, vector<Toppings> toppings);
         //friend istream& operator >> (istream& in, Pizza& pizza);
+        int get_price();
         friend ostream& operator << (ostream& out, const Pizza& pizza);
         //string get_name();
         //string set_name(string name);

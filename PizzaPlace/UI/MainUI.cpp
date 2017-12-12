@@ -3,7 +3,6 @@
 #include <PizzaUI.h>
 #include "Toppings.h"
 #include "Pizza.h"
-#include "PizzaPlace.h"
 #include "StaffLoginUI.h"
 #include "StaffUI.h"
 using namespace std;
