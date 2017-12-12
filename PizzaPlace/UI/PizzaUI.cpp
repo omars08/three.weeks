@@ -49,6 +49,12 @@ void PizzaUI::makePizzaUI()
                 cout << "Do you want to add more pizzas(y/n)? " << endl;
                 cin >> morePizza;
                 cout << endl;
+                vector <Pizza> get_pizza = pizzaOrder.getPizzas(); /// sækja pizzurnar í pöntun
+                for (unsigned int i = 0; i < get_pizza.size(); i++){
+                    cout << get_pizza[i]; ///prentar pizzurnar í current order.
+                }
+                cout << endl;
+                cout << "Total price: " << pizzaOrder.get_totalPrice() << endl;
             }
             pizzaService.addOrder(pizzaOrder);
 

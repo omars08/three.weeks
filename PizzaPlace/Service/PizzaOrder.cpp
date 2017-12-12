@@ -26,3 +26,11 @@ string PizzaOrder::get_name()
 {
     return this->name;
 }
+int PizzaOrder::get_totalPrice()
+{
+    int totalPrice = 0;
+    for(unsigned int i = 0; i < current_order.size(); i++){
+        totalPrice += current_order[i].get_price();
+    }
+    return totalPrice;
+}

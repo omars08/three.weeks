@@ -64,16 +64,21 @@ istream& operator >> (istream& in, Pizza& pizza)
 ostream& operator << (ostream& out, const Pizza& pizza) {
     out << endl;
     //out << " Name: " << pizza.name << endl; <-- PizzaOrder til að halda utan um vektor af pizzunum og upplýsingar um viðskiptavin
-    out << " Size: " << pizza.size << endl;
-    out << " Base: " << pizza.base << endl;
-    out << " Toppings: " << endl;
+    out << pizza.size << endl;
+    out << pizza.base << endl;
+    out << endl;
     for(unsigned int i = 0; i < pizza.toppings.size(); i++){
         out << pizza.toppings[i] << " ";
     }
     out << endl;
-    out << " Price: " << pizza.price;
+    out << pizza.price;
     out << endl;
         return out;
+}
+
+int Pizza::get_price()
+{
+    return this->price;
 }
 /*
 vector<Toppings> Pizza:get_toppings(){
