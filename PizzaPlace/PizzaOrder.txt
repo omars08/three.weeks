@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name: Sindri, phone number: 6612180,
 Size: 9
 Base: I
@@ -11,3 +12,29 @@ Base: I
 Toppings: 
 1 Pepperoni:0 
 Price: 750
+=======
+Braga
+ Size: 9
+ Base: T
+ Toppings: 
+Skinka,150 Hakk,150 
+ Price: 1300
+
+ Size: 12
+ Base: I
+ Toppings: 
+Pepperoni,200 
+ Price: 1700
+Omar
+ Size: 9
+ Base: T
+ Toppings: 
+Paprika,100 Pepperoni,200 
+ Price: 1300
+
+ Size: 9
+ Base: I
+ Toppings: 
+Pepperoni,200 
+ Price: 1200
+>>>>>>> 3dc2108c7345a5ab386a5c5f40afd9efb6f98fed

@@ -58,6 +58,7 @@ void MainUI::openingUI()
             cout << string(50, '\n');
             pizzaOrderUI();
             pizza.makePizzaUI();
+            cout << "Pizza ready";
         }
         /*else if(selection == 't'){
             selection = '\0';
@@ -79,6 +80,8 @@ void MainUI::openingUI()
             bak.bakara();
         }
          ///Şetta á ekki ağ vera ağgengilegt í viğskiptavinamenu/MAINUI
+
+        }  ///Şetta á ekki ağ vera ağgengilegt í viğskiptavinamenu/MAINUI
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;
@@ -97,8 +100,8 @@ void MainUI::openingUI()
                 cout << "View staff options (y/n)? ";
                 cin >> loginInput;
 
-                    StaffUI staffui();
-                    while(loginInput == 'y' || loginInput == 'Y'){
+                StaffUI staffui();
+                while(loginInput == 'y' || loginInput == 'Y'){
 
                     StaffUI staffui;
                     while(true){
@@ -107,12 +110,11 @@ void MainUI::openingUI()
                             int input;
                             cin >> input;
                             if(input != 'q' || input != 'Q'){
-                            staffui.readOrders(input); ///reads the int input and enter the corresponding menu
+                                staffui.readOrders(input); ///reads the int input and enter the corresponding menu
+                            }
                         }
-
                     }
                 }
-            }
             }
             else{
                 cout << "Illegal user name: " << "\"" << login_name << "\"" << ". Entering Main UI.";

@@ -5,6 +5,16 @@ WriteList::WriteList()
     //ctor
 }
 
+void WriteList::storeName(string name)
+{
+    ofstream fout;
+    fout.open ("PizzaOrder.txt", ios::app);
+
+    fout << name;
+
+    fout.close();
+}
+
 void WriteList::storePizza (Pizza pizza) ///Þetta fall tekur inn pizzu og bætir á lista. Sé önnur pizza útbúin þá bætist hún aftan á listan.
 {
     ofstream fout;
@@ -15,7 +25,7 @@ void WriteList::storePizza (Pizza pizza) ///Þetta fall tekur inn pizzu og bætir 
     fout.close();
 }
 
-void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skrá Toppings.txt.
+/*void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skrá Toppings.txt.
 {
     ofstream fout;
     fout.open ("Toppings.txt", ios::app);
@@ -23,7 +33,7 @@ void WriteList::storeToppingList (Toppings toppings) /// Bætir við topping í skr
     fout << toppings;
 
     fout.close();
-}
+}*/
 void WriteList::reviewPizza ()
 {
     string line;

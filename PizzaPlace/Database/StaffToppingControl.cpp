@@ -3,96 +3,53 @@
 #include <fstream>
 #include "Toppings.h"
 #include "WriteList.h"
+#include <stdlib.h>
+#include <vector>
+using namespace std;
+
+/*
 StaffToppingControl::StaffToppingControl()
 {
     //ctor
-}
-
-StaffToppingControl::~StaffToppingControl()
-{
-    //dtor
-}
-void StaffToppingControl::ToppingControl0(Toppings toppings) /// Bætir við ókeypis topping í skrá toppingfree.txt. 0 kr.
+}*/
+StaffToppingControl::~StaffToppingControl(){}
+void StaffToppingControl::ToppingControl0(Toppings toppings) ///
 {
     ofstream fout;
-    fout.open ("toppingfree.txt", ios::app);
-    cin >> toppings;
-    fout << toppings << endl;
-    fout << endl;
+    fout.open ("toppinglist.txt", ios::app);
+    //cin >> toppings;
+    fout << toppings;
 
     fout.close();
 }
-void StaffToppingControl::ToppingControl1(Toppings toppings) /// Bætir við grænmetis topping í skrá toppingVeg.txt. 200 kr.
-{
-    ofstream fout;
-    fout.open ("toppingVeg.txt", ios::app);
-    cin >> toppings;
-    fout << toppings << endl;
-    fout << endl;
 
-    fout.close();
-}
-void StaffToppingControl::ToppingControl2(Toppings toppings) /// Bætir við kjöt topping í skrá toppingMeat.txt. 300 kr.
+vector<Toppings> StaffToppingControl::getAllToppings()
 {
-    ofstream fout;
-    fout.open ("toppingMeat.txt", ios::app);
-    cin >> toppings;
-    fout << toppings << endl;
-    fout << endl;
 
-    fout.close();
-}
-void StaffToppingControl::ToppingControl3(Toppings toppings) /// Bætir við lúxus kjöt topping í skrá toppingLuxuryMeat.txt. 350 kr.
-{
-    ofstream fout;
-    fout.open ("toppingLuxuryMeat.txt", ios::app);
-    cin >> toppings;
-    fout << toppings << endl;
-    fout << endl;
+vector <Toppings> toppingVector;
+    //int counter = 0;
+    string line;
+    string name;
+    int price;
+    ifstream fin;
+    fin.open("toppinglist.txt");
+    if(fin.is_open()){
+        while(getline(fin, name, ',')){
+            string tempPrice = "";
+            getline(fin, tempPrice, ',');
 
-    fout.close();
-}
-void StaffToppingControl::PrintTopping0()
-{
-    string line;
-    ifstream fin;
-    fin.open("toppingfree.txt");
-        do{
-                getline(fin, line);
-        cout << line << endl;
-        }while(!fin.eof());
+            if(name[0] == '\n'){
+                name.erase(0,1);
+            }
+            if(tempPrice[0] == '\n'){
+                tempPrice.erase(0,1);
+            }
+
+            price = atoi(tempPrice.c_str());
+            Toppings topping(name, price);
+            toppingVector.push_back(topping);
+        }
+    }
         fin.close();
-}
-void StaffToppingControl::PrintTopping1()
-{
-    string line;
-    ifstream fin;
-    fin.open("toppingVeg.txt");
-        do{
-                getline(fin, line);
-        cout << line << endl;
-        }while(!fin.eof());
-        fin.close();
-}
-void StaffToppingControl::PrintTopping2()
-{
-    string line;
-    ifstream fin;
-    fin.open("toppingMeat.txt");
-        do{
-                getline(fin, line);
-        cout << line << endl;
-        }while(!fin.eof());
-        fin.close();
-}
-void StaffToppingControl::PrintTopping3()
-{
-    string line;
-    ifstream fin;
-    fin.open("toppingLuxuryMeat.txt");
-        do{
-                getline(fin, line);
-        cout << line << endl;
-        }while(!fin.eof());
-        fin.close();
-}
+        return toppingVector;
+    }

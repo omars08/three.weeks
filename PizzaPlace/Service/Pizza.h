@@ -11,19 +11,21 @@ class Pizza
 {
     public:
         Pizza();
-        Pizza(string name, int size, int phone, char base, int price, vector<Toppings> toppings);
-        friend istream& operator >> (istream& in, Pizza& pizza);
+        Pizza(int size, char base, int price, vector<Toppings> toppings);
+        //friend istream& operator >> (istream& in, Pizza& pizza);
         friend ostream& operator << (ostream& out, const Pizza& pizza);
-        string get_name();
-        void add_topping (Toppings topping);
-        string set_name(string name);
+        //string get_name();
+        //string set_name(string name);
+        //vector<Toppings> get_toppings();
+        //void update_price(int additionalPrice);
     private:
         string name;
-        int phone;
+        //int phone;
         int size;
         char base;
         int price;
         vector<Toppings> toppings;
+
 };
 
 #endif // PIZZA_H

@@ -33,6 +33,7 @@ void StaffUI::readOrders(int input)
     if(input == 1){
         writelist.reviewPizza();
     }
+
     else if(input == 3){
         Toppings toppings;
         StaffToppingControl toppingcontrol;
@@ -41,50 +42,20 @@ void StaffUI::readOrders(int input)
         cout << "   User input: ";
         cin >> char_input;
             if(char_input == 'r'){
-                cout << endl;
-                cout << "Which topping category to print?" << endl;
-                cout << "1. Sauces and spices." << endl;
-                cout << "2. Vegetables and fruit." << endl;
-                cout << "3. Meats." << endl;
-                cout << "4. Luxury meats." << endl;
-                cout << "   User input: ";
-                int input;
-                cin >> input;
-                    if(input == 1){
-                        toppingcontrol.PrintTopping0();
-                    }
-                    else if(input == 2){
-                        toppingcontrol.PrintTopping1();
-                    }
-                    else if(input == 3){
-                        toppingcontrol.PrintTopping2();
-                    }
-                    else if(input == 4){
-                        toppingcontrol.PrintTopping3();
-                    }
-
+                ToppingsService toppingsService;
+                vector<Toppings> myToppings = toppingsService.getAllToppings();
+                for(unsigned int i = 0; i < myToppings.size(); i++){
+                cout << i+1 << " " << myToppings[i] << endl;
                 }
+            }
             else if(char_input == 'a'){
-        cout << endl;
-        cout << "Which topping category to alter?" << endl;
-        cout << "1. Sauces and spices (0 kr.)." << endl;
-        cout << "2. Vegetables and fruit (200 kr.)." << endl;
-        cout << "3. Meats (300 kr.)." << endl;
-        cout << "4. Luxury meats (350 kr.)." << endl;
-        cout << "   User input: ";
-        cin >> input;
-            if(input == 1){
-                toppingcontrol.ToppingControl0(toppings);
+            cout << "Create topping (y/n)? ";
+            char input;
+            cin >> input;
+                if(input == 'y'){
+                    cin >> toppings;
+                    toppingcontrol.ToppingControl0(toppings);
             }
-            else if(input == 2){
-                toppingcontrol.ToppingControl1(toppings);
-            }
-            else if(input == 3){
-                toppingcontrol.ToppingControl2(toppings);
-            }
-            else if(input == 4){
-                toppingcontrol.ToppingControl3(toppings);
         }
-    }
     }
 }

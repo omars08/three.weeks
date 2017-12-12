@@ -1,12 +1,4 @@
-  #include "PizzaUI.h"
-#include <iostream>
-#include "Pizza.h"
-#include "Toppings.h"
-#include <string>
-#include <vector>
-#include "WriteList.h"
-#include "CustomerPrintToppings.h"
-#include "MainUI.h"
+#include "PizzaUI.h"
 using namespace std;
 
 PizzaUI::PizzaUI()
@@ -20,7 +12,6 @@ void PizzaUI::makePizzaUI()
     string name = "";
 
     while(selection != 'q' || selection != 'Q'){
-    int selectCounter = 0;
         cout << " ----------------------- " << endl;
         cout << "|                       |" << endl;
         cout << "| O:   Order from menu  |" << endl;
@@ -33,59 +24,72 @@ void PizzaUI::makePizzaUI()
         cout << "   User input: ";
         cin >> selection;
         if(selection == 'p' || selection == 'P'){
-            Pizza thepizza;
-            cin >> thepizza;
-            Toppings toppings;
-            cout << " Want to add a topping: (y/n)? ";
-            cin >> selection;
-
-            if(selection == 'y'){
-                while(selection == 'y'){
-                Toppings toppings;
-                    char input;
-                    while(input != 'n'){
+            cout << "Customer name: ";
+            cin >> name;
+            PizzaOrder pizzaOrder(name);
+            char morePizza = '\0';
+            while( morePizza != 'n' && morePizza != 'N' ){
+                vector<int> toppings;
+                int input = -1;
+                char base;
+                int inches;
+                int price;
+                initPizza(inches, base, price);
+                getToppinglist();
+                cout << "Enter a number for corresponding topping (0 to finish): " << endl;
+                cin >> input;
+                while(input != 0){
+                    toppings.push_back(input);
                     cout << endl;
-                    cout << " Want to browse the toppings (y/n)? ";
+                    getToppinglist();
+                    cout << "Enter a number for corresponding topping (0 to finish): " << endl;
                     cin >> input;
-                        if(input == 'y'){
-                            int topping_input = 0;
-                            cout << endl;
-                            cout << "What topping category to print out?" << endl;
-                            cout << " 1. Sauces and spices." << endl;
-                            cout << " 2. Vegetables and fruit." << endl;
-                            cout << " 3. Meats." << endl;
-                            cout << " 4. Luxury meats." << endl;
-                            cout << "   Customer input: ";
-                            cin >> topping_input;
-                            CustomerPrintToppings printtoppings;
-                            printtoppings.PrintToppings(topping_input);
-                        }
+                }
+                pizzaOrder.addPizza(base, inches, price, toppings);
+                cout << "Do you want to add more pizzas(y/n)? " << endl;
+                cin >> morePizza;
+                cout << endl;
+            }
+            pizzaService.addOrder(pizzaOrder);
 
+
+
+
+
+            //pizzaService.storePizza(pizza);
+        }
+            /*if(selection == 'y'){
+                //while(selection == 'y'){
+                //Toppings toppings;
+                    char input;
+                    if(input != 'n'){
+                            getToppinglist();
+                        }
                     }
-                cin >> toppings;
-                thepizza.add_topping(toppings);
+                //cin >> toppings;
+                //thepizza.add_topping(toppings);
                 cout << "Add another topping: (y/n)? ";
                 cin >> selection;
-                selectCounter++;
+                //selectCounter++;
                 }
             }
-            else if (selection == 'n' || selection == 'N'){
-                cout << "No topping added ";
+            if (selection == 'n' || selection == 'N'){
+                cout << "No topping added!";
                 cout << "This is your pizza: " << endl;
                 if(selectCounter == 0){
                     //string margaName = "Margherita";
                     //thepizza.set_name(margaName);
                 }
                 else{
-                 cout << thepizza; //current order
+                 //cout << thepizza; //current order
                 }
             }
-            cout << thepizza;
+            //cout << thepizza;
             WriteList writelist;
-            writelist.storePizza(thepizza);
+            //writelist.storePizza(thepizza);
 
         }
-        /*else if(selection == 'f' || selection == 'F')
+        else if(selection == 'f' || selection == 'F')
         {
             int number;
             string answer;
@@ -133,8 +137,8 @@ void PizzaUI::makePizzaUI()
                 cout << i << " matches" << endl;
             }
             fif.close();
-        }*/ ///þarf að nota aðferðina úr week2 verkefninu
-        else if(selection == 'r' || selection == 'R'){
+        } ///þarf að nota aðferðina úr week2 verkefninu
+        if(selection == 'r' || selection == 'R'){
                 WriteList writelist;
                 writelist.reviewPizza();
             }
@@ -148,4 +152,43 @@ void PizzaUI::makePizzaUI()
             mainui.openingUI();
         }
         }
+       */
+    }
+}
+void PizzaUI::initPizza(int& inches, char& base, int& price){
+
+    //cout << "Phone number: ";
+    //in >> pizza.phone;
+    cout << "What size is the pizza: (9, 12, 16): ";
+    cin >> inches;
+    if(inches <= 9){
+        inches = 9;
+        price = 1000;
+    }
+    else if(inches <= 12){
+        inches = 12;
+        price = 1500;
+    }
+    else if(inches <= 16 || inches >= 16){
+        inches = 16;
+        price = 2000;
+    }
+    cout << "Pizza bases available: thick (t) and italian (i): ";
+    cin >> base;
+    if(base == 'T' || base == 't'){
+        base = 'T';
+    }
+    else if(base == 'i' || base == 'I'){
+        base = 'I';
+    }
+    cout << endl;
+}
+
+void PizzaUI::getToppinglist()
+{
+    ToppingsService toppingsService;
+    vector<Toppings> myToppings = toppingsService.getAllToppings();
+    for(unsigned int i = 0; i < myToppings.size(); i++){
+        cout << i+1 << " " << myToppings[i] << endl;
+    }
 }
