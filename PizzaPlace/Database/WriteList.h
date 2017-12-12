@@ -4,17 +4,16 @@
 #include "Pizza.h"
 #include <iostream>
 #include <fstream>
-#include "PizzaPlace.h"
-#include "PizzaUI.h"
 
 using namespace std;
 
-///Þessi klasi sér aðeins um að skrifa í skrá
+//Þessi klasi sér aðeins um að skrifa í skrá
 
 class WriteList
 {
     public:
         WriteList();
+        void storeName(string name);
         void storePizza (Pizza pizza);
         void storeToppingList (Toppings toppings);
         void reviewPizza ();

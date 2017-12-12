@@ -14,17 +14,16 @@ Pizza::Pizza()
 
 }
 
-Pizza::Pizza(string name, int size, char base, int price, vector<Toppings> toppings)
+Pizza::Pizza(int size, char base, int price, vector<Toppings> toppings)
 {
-    this->name = name;
     this->size = size;
-    //this->phone = phone;
     this->base = base;
     this->price = price;
+    this->toppings = toppings;
 
 }
 
-void Pizza::add_topping (Toppings topping)
+/*void Pizza::add_topping(Toppings topping)
 {
     this->toppings.push_back(topping);
     this->price += topping.get_price();
@@ -61,10 +60,10 @@ istream& operator >> (istream& in, Pizza& pizza)
         }
     return in;
 }
-
+*/
 ostream& operator << (ostream& out, const Pizza& pizza) {
     out << endl;
-    out << " Name: " << pizza.name << endl;
+    //out << " Name: " << pizza.name << endl; <-- PizzaOrder til að halda utan um vektor af pizzunum og upplýsingar um viðskiptavin
     out << " Size: " << pizza.size << endl;
     out << " Base: " << pizza.base << endl;
     out << " Toppings: " << endl;
@@ -76,6 +75,10 @@ ostream& operator << (ostream& out, const Pizza& pizza) {
     out << endl;
         return out;
 }
+/*
+vector<Toppings> Pizza:get_toppings(){
+    return toppings;
+}
 
 string Pizza::get_name()
 {
@@ -86,3 +89,4 @@ string Pizza::set_name(string name){
     this->name = name;
     return name;
 }
+*/

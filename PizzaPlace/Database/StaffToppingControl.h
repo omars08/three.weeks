@@ -4,8 +4,6 @@
 #include "Pizza.h"
 #include <iostream>
 #include <fstream>
-#include "PizzaPlace.h"
-#include "PizzaUI.h"
 
 class StaffToppingControl
 {

@@ -9,8 +9,10 @@ class ToppingsService
     public:
         ToppingsService();
         vector<Toppings> getAllToppings();
+        Toppings toppingAt(int index);
 
     private:
+        StaffToppingControl control;
 
 };
 

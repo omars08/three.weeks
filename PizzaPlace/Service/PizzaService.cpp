@@ -1,20 +1,29 @@
 #include "PizzaService.h"
-#include "ToppingsService.h"
-#include "Toppings.h"
+
+void PizzaService::addOrder(PizzaOrder pizzaOrder){
+
+    writeList.storeName(pizzaOrder.get_name());
+    vector<Pizza> pizzas = pizzaOrder.getPizzas();
+    for(unsigned int i = 0; i < pizzas.size(); i++){
+        writeList.storePizza(pizzas[i]);
+    }
 
 
-void PizzaService::addToppingToPizza(int input, Pizza &pizza)
+}
+/*void PizzaService::addToppingToPizza(int input, Pizza &pizza)
 {
     ToppingsService toppingService;
     vector<Toppings> allToppings = toppingService.getAllToppings(); //Sækja öll topping
     Toppings topping = allToppings[input-1];// leita af topping nr "input"
     pizza.add_topping(topping);
-}
-void PizzaService::storePizza(Pizza pizza)
+}*/
+/*void PizzaService::storePizza(Pizza pizza)
 {
     WriteList storepizza;
     storepizza.storePizza(pizza);
-}
+}*/
+
+
 /*
 ostream& operator << (ostream& out, const PizzaService& pizzaservice)
 {

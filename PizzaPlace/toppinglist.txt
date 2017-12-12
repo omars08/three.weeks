@@ -1,3 +1,4 @@
 Pepperoni,200,
 Skinka,150,
 Hakk,150,
+Paprika,100,

@@ -1,5 +1,4 @@
 #include "ToppingsService.h"
-#include "Toppings.h"
 
 ToppingsService::ToppingsService()
 {
@@ -9,6 +8,10 @@ ToppingsService::ToppingsService()
 
 vector<Toppings> ToppingsService::getAllToppings()
 {
-    StaffToppingControl control;
     return control.getAllToppings();
+}
+Toppings ToppingsService::toppingAt(int index)
+{
+    vector<Toppings> all = getAllToppings();
+    return all[index];
 }

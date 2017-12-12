@@ -1,8 +1,12 @@
 #ifndef PIZZAUI_H
 #define PIZZAUI_H
+#include <iostream>
+#include <string>
+#include <vector>
+
+#include "PizzaOrder.h"
 #include "PizzaService.h"
 #include "ToppingsService.h"
-
 
 class PizzaUI
 {
@@ -12,6 +16,8 @@ class PizzaUI
         void getToppinglist();
 
     private:
+        void initPizza(int& inches, char& base, int& price);
+        PizzaService pizzaService;
 
 
 };

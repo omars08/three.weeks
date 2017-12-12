@@ -1,13 +1,4 @@
-  #include "PizzaUI.h"
-#include <iostream>
-#include "Pizza.h"
-#include "Toppings.h"
-#include <string>
-#include <vector>
-#include "WriteList.h"
-#include "CustomerPrintToppings.h"
-#include "MainUI.h"
-#include "StaffToppingControl.h"
+#include "PizzaUI.h"
 using namespace std;
 
 PizzaUI::PizzaUI()
@@ -17,7 +8,6 @@ PizzaUI::PizzaUI()
 
 void PizzaUI::makePizzaUI()
 {
-    PizzaService pizzaService;
     char selection = '\0';
     string name = "";
 
@@ -34,21 +24,39 @@ void PizzaUI::makePizzaUI()
         cout << "   User input: ";
         cin >> selection;
         if(selection == 'p' || selection == 'P'){
-            Pizza pizza;
-            cin >> pizza;
-            int input;
-            cout << endl;
-            getToppinglist();
-            cout << "Enter a number for corresponding topping (0 to finish): " << endl;
-            cin >> input;
-            while(input != 0){
-                pizzaService.addToppingToPizza(input, pizza);
-                pizzaService.storePizza(pizza);
-                cout << endl;
+            cout << "Customer name: ";
+            cin >> name;
+            PizzaOrder pizzaOrder(name);
+            char morePizza = '\0';
+            while( morePizza != 'n' && morePizza != 'N' ){
+                vector<int> toppings;
+                int input = -1;
+                char base;
+                int inches;
+                int price;
+                initPizza(inches, base, price);
                 getToppinglist();
                 cout << "Enter a number for corresponding topping (0 to finish): " << endl;
                 cin >> input;
+                while(input != 0){
+                    toppings.push_back(input);
+                    cout << endl;
+                    getToppinglist();
+                    cout << "Enter a number for corresponding topping (0 to finish): " << endl;
+                    cin >> input;
+                }
+                pizzaOrder.addPizza(base, inches, price, toppings);
+                cout << "Do you want to add more pizzas(y/n)? " << endl;
+                cin >> morePizza;
+                cout << endl;
             }
+            pizzaService.addOrder(pizzaOrder);
+
+
+
+
+
+            //pizzaService.storePizza(pizza);
         }
             /*if(selection == 'y'){
                 //while(selection == 'y'){
@@ -147,6 +155,35 @@ void PizzaUI::makePizzaUI()
        */
     }
 }
+void PizzaUI::initPizza(int& inches, char& base, int& price){
+
+    //cout << "Phone number: ";
+    //in >> pizza.phone;
+    cout << "What size is the pizza: (9, 12, 16): ";
+    cin >> inches;
+    if(inches <= 9){
+        inches = 9;
+        price = 1000;
+    }
+    else if(inches <= 12){
+        inches = 12;
+        price = 1500;
+    }
+    else if(inches <= 16 || inches >= 16){
+        inches = 16;
+        price = 2000;
+    }
+    cout << "Pizza bases available: thick (t) and italian (i): ";
+    cin >> base;
+    if(base == 'T' || base == 't'){
+        base = 'T';
+    }
+    else if(base == 'i' || base == 'I'){
+        base = 'I';
+    }
+    cout << endl;
+}
+
 void PizzaUI::getToppinglist()
 {
     ToppingsService toppingsService;

@@ -1,63 +1,24 @@
-
- Name: Stan
+Braga
  Size: 9
  Base: T
+ Toppings: 
+Skinka,150 Hakk,150 
+ Price: 1300
+
+ Size: 12
+ Base: I
+ Toppings: 
+Pepperoni,200 
+ Price: 1700
+Omar
+ Size: 9
+ Base: T
+ Toppings: 
+Paprika,100 Pepperoni,200 
+ Price: 1300
+
+ Size: 9
+ Base: I
  Toppings: 
 Pepperoni,200 
  Price: 1200
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 Skinka,150 
- Price: 1350
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 
- Price: 1200
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 Hakk,150 
- Price: 1350
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 
- Price: 1200
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 Skinka,150 
- Price: 1350
-
- Name: Stan
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 Skinka,150 Pepperoni,200 
- Price: 1550
-
- Name: ag
- Size: 9
- Base: T
- Toppings: 
-Pepperoni,200 
- Price: 1200
-
- Name: ag
- Size: 16
- Base: T
- Toppings: 
-Pepperoni,200 
- Price: 2200
