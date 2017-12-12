@@ -13,10 +13,6 @@ StaffUI::StaffUI()
     //ctor
 }
 
-StaffUI::~StaffUI()
-{
-    //dtor
-}
 void StaffUI::printOrders()
 {
 cout << "Staff menu: " << endl;

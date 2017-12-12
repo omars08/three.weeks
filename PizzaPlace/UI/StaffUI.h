@@ -6,7 +6,6 @@ class StaffUI
 {
     public:
         StaffUI();
-        virtual ~StaffUI();
         void printOrders();
         void readOrders(int input);
 

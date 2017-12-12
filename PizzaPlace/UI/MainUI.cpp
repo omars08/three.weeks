@@ -5,6 +5,7 @@
 #include "Pizza.h"
 #include "StaffLoginUI.h"
 #include "StaffUI.h"
+#include "BakariUI.h"
 using namespace std;
 
 MainUI::MainUI()
@@ -13,13 +14,13 @@ MainUI::MainUI()
 }
 void MainUI::introUI(){
    cout << "  _______  _        _     _______ _________ _______  _______ _______ " << endl;
-   cout << " (  ____ \ ( )      ( )   (  ____ )\__   __// ___   )/ ___   )(  ___  )" << endl;
-   cout << " | (    \/ | |      | |   | (    )|   ) (    \/   )  |\/   )  || (   ) |" << endl;
-   cout << " | |    __| |__  __| |__ | (____)|   | |       /   )   /   )| (___) |" << endl;
-   cout << " | |   (__   __)(__   __)|  _____)   | |      /   /   /   / |  ___  |" << endl;
-   cout << " | |      | |      | |   | (         | |     /   /   /   /  | (   ) |" << endl;
-   cout << " | (____/\ | |      | |   | )      ___) (___ /   (_/\ /   (_/\ | )   ( |" << endl;
-   cout << " (_______/(_)      (_)   |/        \_______/(_______/_______/|/      \|" << endl;
+   cout << " (  ____ \( )     ( )   (  ____ )\__   __// ___   )/ ___   )(  ___  )" << endl;
+   cout << " | (    \/| |     | |   | (    )|   ) (    \/   ) |\/   |   | (   ) |" << endl;
+   cout << " | |    __| |_____| |__ | (____)|   | |       /   )   /   ) | (___) |" << endl;
+   cout << " | |   (__   _____   __)|  _____)   | |      /   /   /   /  |  ___  |" << endl;
+   cout << " | |      | |     | |   | (         | |     /   /   /   /   | (   ) |" << endl;
+   cout << " | (____/\| |     | |   | )      ___) (___ /   (_/\ /   (_/\| )   ( |" << endl;
+   cout << " (_______/(_)     (_)   |/        \_______/(_______/_______/|/     \|" << endl;
    cout << " ----------------Fresh(ly) compiled pizzas since 2017----------------" << endl;
    cout << endl;
    cout << " --------------| W E L C O M E  T O  C + +  P I Z Z A |--------------" << endl;
@@ -27,6 +28,7 @@ void MainUI::introUI(){
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << " |       To create an order      |  |       Administrator: 'A'      |" << endl;
    cout << " |              :-:              |  |   Press 'S' for staff login   |" << endl;
+   cout << " |              :-:              |  |   Press 'B' for Baker login   |" << endl;
    cout << " |           Press 'O'           |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << endl;
@@ -56,6 +58,12 @@ void MainUI::openingUI()
             pizzaOrderUI();
             pizza.makePizzaUI();
             cout << "Pizza ready";
+        }
+
+          else if(selection == 'b' || selection == 'B')
+        {
+            BakariUI bak;
+            bak.bakara();
         }
         /*else if(selection == 't'){
             selection = '\0';

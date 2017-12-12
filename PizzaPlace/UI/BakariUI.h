@@ -3,7 +3,6 @@
 #include <string>
 #include <fstream>
 using namespace std;
-
 class BakariUI
 {
     public:
@@ -18,8 +17,7 @@ class BakariUI
     string select;
     ifstream fif;
     ofstream fout;
-
-
+    private:
 };
 
 #endif // BAKARIUI_H

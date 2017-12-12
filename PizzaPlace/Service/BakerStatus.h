@@ -16,5 +16,4 @@ class BakerStatus
 
 
 };
-
 #endif // BAKERSTATUS_H
