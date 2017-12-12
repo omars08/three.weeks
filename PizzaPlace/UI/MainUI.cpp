@@ -6,7 +6,6 @@
 #include "PizzaPlace.h"
 #include "StaffLoginUI.h"
 #include "StaffUI.h"
-#include "BakariUI.h"
 using namespace std;
 
 MainUI::MainUI()
@@ -29,7 +28,6 @@ void MainUI::introUI(){
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << " |       To create an order      |  |       Administrator: 'A'      |" << endl;
    cout << " |              :-:              |  |   Press 'S' for staff login   |" << endl;
-   cout << " |              :-:              |  |   Press 'B' for Baker login   |" << endl;
    cout << " |           Press 'O'           |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << endl;
@@ -72,16 +70,7 @@ void MainUI::openingUI()
             }
             while(selection == 'y');
             cout << pizzaplace;
-
-        }*/
-        else if(selection == 'b' || selection == 'B')
-        {
-            BakariUI bak;
-            bak.bakara();
-        }
-         ///Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
-
-        }  ///Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
+        }*/ //Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;
