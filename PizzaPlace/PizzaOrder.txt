@@ -1,0 +1,13 @@
+Name: Sindri, phone number: 6612180,
+Size: 9
+Base: I
+Toppings: 
+1 Pepperoni:0 
+ Price: 750
+
+Name: Sindri, phone number: 6612180,
+Size: 9
+Base: I
+Toppings: 
+1 Pepperoni:0 
+Price: 750

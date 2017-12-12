@@ -6,6 +6,7 @@
 #include "PizzaPlace.h"
 #include "StaffLoginUI.h"
 #include "StaffUI.h"
+#include "BakariUI.h"
 using namespace std;
 
 MainUI::MainUI()
@@ -26,9 +27,10 @@ void MainUI::introUI(){
    cout << " --------------| W E L C O M E  T O  C + +  P I Z Z A |--------------" << endl;
    cout << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
-   cout << " |        Create an order        |  |       Administrator: 'A'      |" << endl;
-   cout << " |               *               |  |   Press 'S' for staff login   |" << endl;
-   cout << " |            Press 'O'          |  |            Q: quit            |" << endl;
+   cout << " |       To create an order      |  |       Administrator: 'A'      |" << endl;
+   cout << " |              :-:              |  |   Press 'S' for staff login   |" << endl;
+   cout << " |              :-:              |  |   Press 'B' for Baker login   |" << endl;
+   cout << " |           Press 'O'           |  |            Q: quit            |" << endl;
    cout << "  -------------------------------    ------------------------------- " << endl;
    cout << endl;
    cout << " For customer service and complaints, type \"ABORT\" and press enter." << endl;
@@ -69,7 +71,14 @@ void MainUI::openingUI()
             }
             while(selection == 'y');
             cout << pizzaplace;
-        }*/ ///Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
+
+        }*/
+        else if(selection == 'b' || selection == 'B')
+        {
+            BakariUI bak;
+            bak.bakara();
+        }
+         ///Þetta á ekki að vera aðgengilegt í viðskiptavinamenu/MAINUI
         else if(selection == 's' || selection == 'S'){ //STAFF LOGIN MENU
             cout << string(50, '\n');
             StaffLoginUI stafflogin;
